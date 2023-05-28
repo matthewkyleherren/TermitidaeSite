@@ -1,0 +1,44 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+patreon.com	TRUE	/	FALSE	1999999999	patreon_device_id	04887052-3799-46db-8363-dee33599c4b5
+.youtube.com	TRUE	/	FALSE	1999999999	SOCS	CAAaBgiAkMWjBg
+.youtube.com	TRUE	/	FALSE	1999999999	YSC	1StU02tBcZ0
+.youtube.com	TRUE	/	FALSE	1999999999	CONSENT	PENDING+547
+.linkedin.com	TRUE	/	FALSE	1999999999	lidc	b=VGST03:s=V:r=V:a=V:p=V:g=2888:u=1:x=1:i=1685224577:t=1685310977:v=2:sig=AQHGBbVHLe6P3mkRZeiLlnyOKYnBeApj"
+www.linkedin.com	TRUE	/	FALSE	1999999999	ccookie	0001AQGn4wmoI4hdlgAAAYhfNlfoGCLHgI6dpoLzCpduM5Tcy+k3wzZTGrwyeyQwGHJHlhiFA9o+o33jb1WI/qG2SJM/mCrgl+7Ak4xr6i9KwVFQ5kO00taTghEh6haY8APQp7bqWMiGdIgXOXAz0HoXxnu6ZxB7qzneW7OUaIIDXqhUyHWkCdk=
+www.pinterest.com	TRUE	/	FALSE	1999999999	_routing_id	14342a0c-4697-48ba-85c5-92d8f01c6561"
+workingnotworking.com	TRUE	/	FALSE	1999999999	ahoy_visitor	1eb9a2fd-e307-4995-8466-1fe1595f5726
+discord.com	TRUE	/	FALSE	1999999999	__dcfduid	50593600fcd911eda978796492b43d26
+discord.com	TRUE	/	FALSE	1999999999	__sdcfduid	50593601fcd911eda978796492b43d26f82a98b472fa700fc8e37743147b26247add49b718073213e1fa9c78c5dbcb85
+.patreonusercontent.com	TRUE	/	FALSE	1999999999	__cf_bm	iFYewENPgcGJhwy3m2S1CA9SrBNJYkj.vfaTVdOFRg8-1685224946-0-AQ6NKKu/cfOx6l9Yj6HoN0a2ZBFwt/biyFCh9yx0J8WQjOUDSnFPKxoKDvcH6lHeN/fddvhAajYBVFB8CtcKcxA=
+c10.patreonusercontent.com	TRUE	/	FALSE	1999999999	SameSite	None
+dribbble.com	TRUE	/	FALSE	1999999999	_dribbble_session	dDBKSy83eERCdWkvMDFFWE1kaE1CUHRkbXpxQ29JbHkyNXBNTHJxMUkycG03M3VyOEQwWTJKcXNreEVwbkRpc01zMFFYcDhyazlCWjNSU0hYaS8yaEF2b3JHSDh6NU9xZEI3SmlRZ2xZRjVUaHZvL3hQYVNXb25zRmdONlVyakFyQ2dLdEs2N08rVzFzY0orUktQVmZvNHYxOG9tdTJ4NWRCbGRTd3ZsTTU5OTVQVVBxNDRBQlA1dWUwQSsrYzdiWjlnSnVVWGVUc1FHbm9EVGJLSTlZSW9uOHZyMTA2ZGRVQllQak1QOW9wUXkza0d5K0cyRkpncTcrd1huTTRZZHY3NzB1eGNsS2ZUNmhvQXpZQ0w0bzZWckViMGc1YXdveDNZS2ZlTzI4V2IzbVI2TFZPdFNVUmFURGd3UVVRUGR0OW5LaXF4cXlpaER5WXl3VTM4eHhBPT0tLVJMU01Seld3V3FSa1JCQWdaL1dTUnc9PQ%3D%3D--304aa7f37e75d10a19db857ef903e3cdf98ce8a8
+.linkedin.com	TRUE	/	FALSE	1999999999	bcookie	v=2&fbb1de44-af9b-455e-8c1c-80c6373e2816"
+.www.linkedin.com	TRUE	/	FALSE	1999999999	bscookie	v=1&20230527221918587d14c9-8cef-486f-8525-eba4eee122fcAQGLWvKknoFx-zVFilNowtZKG_tvRXtk"
+.linkedin.com	TRUE	/	FALSE	1999999999	li_gc	MTswOzE2ODUyMjU5NTg7MjswMjHWlkwKVyc5UvHfDNcKIZD/1VFmtzEUT9RVaVZBfC/LyQ==
+www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+workingnotworking.com	TRUE	/	FALSE	1999999999	field_test	bb668394-be3c-4a41-9e3a-dd12358f59ed
+workingnotworking.com	TRUE	/	FALSE	1999999999	seen_cookie_banner	true
+workingnotworking.com	TRUE	/	FALSE	1999999999	ahoy_visit	8c807cd3-4cc5-403f-afbf-9931ab039a23
+workingnotworking.com	TRUE	/	FALSE	1999999999	_wnw_session	HjyqaK7ZVS2vEVhrp4fkwuV0UohwavL9pcb7TVjXWkdpu%2FC2xileO0fOoM0cIYa3Ulr6jxBmUyDEcYihuyNlWhncsLiij7mtZwKwV0gkDhdL7YAUlp2uM%2FABQeQCzg6eNkZ5KCiLDtuFrhc7NKeUn1%2FA38T0HZ0FiWbKiI76Q8ajDO7iyd36%2FTCV3XDrPWhJtzsG2ooz7%2FIf40LKbmaGX0B1EkOG%2BqeZdbjzB3DHIw1WOlFiE8MvHk%2FkverU32ZLlEl5Ct1Dc7RGsyy5z1ZY1Rbx%2B8usNrh8rc0t3msrRTYk1nhouYCQTZEV--omZsy0ZUkyQC21bF--MDYqgFPUqGarEGmE736dOg%3D%3D
+workingnotworking.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A168522607758978640
+twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+.discord.com	TRUE	/	FALSE	1999999999	__cfruid	5d9fcf4b6bf85383fe6a38fd98fb62057040ef45-1685226083
+discord.com	TRUE	/	FALSE	1999999999	SameSite	None
+.patreon.com	TRUE	/	FALSE	1999999999	__cf_bm	BQer1U3Xs.9Zw6EbPlcXbmfl3lkRLTs1bnFgmJjWtsI-1685227905-0-Admneu3JfSCJX+nPhZECV78yBTelk7HBhF/b8kOgfewbrQfUYu2Td5WJ371rXVSRI6R6QEgGQgCwDFanU19uo79W+o2vTg8oGDK9mZgo2OuD
+www.patreon.com	TRUE	/	FALSE	1999999999	AWSALBTG	7+N4FT4k+fa/3KnPQHLrLJld+Mr96KuwLq/JNe3St4r0Z13+jqetiQVh6l6Ts1ESwB2YeL0UAEoh2NvHI40KCgP/hh9Pk+jYiH81FhgpU7MKRXncBYzKl83KIVaAth23UAz6e/renLInXjI9QfQEFGIP1dXmNkPFUTlxkAb9PLQjJEqsuho=
+www.patreon.com	TRUE	/	FALSE	1999999999	AWSALBTGCORS	7+N4FT4k+fa/3KnPQHLrLJld+Mr96KuwLq/JNe3St4r0Z13+jqetiQVh6l6Ts1ESwB2YeL0UAEoh2NvHI40KCgP/hh9Pk+jYiH81FhgpU7MKRXncBYzKl83KIVaAth23UAz6e/renLInXjI9QfQEFGIP1dXmNkPFUTlxkAb9PLQjJEqsuho=
+www.patreon.com	TRUE	/	FALSE	1999999999	SameSite	None
+patreon.com	TRUE	/	FALSE	1999999999	a_csrf	sc4WiENkMNAxoccP55jQVbV5cr182sbMVLbc1xnSlpg
+patreon.com	TRUE	/	FALSE	1999999999	patreon_locale_code	en-GB
+patreon.com	TRUE	/	FALSE	1999999999	patreon_location_country_code	CH
+.youtube.com	TRUE	/	FALSE	1999999999	SameSite	none
+.youtube.com	TRUE	/	FALSE	1999999999	__Secure-YEC	CgtRbWhZUzdnOTJaRSjzpcqjBg%3D%3D
+www.youtube.com	TRUE	/	FALSE	1999999999	SameSite	lax
+.twitch.tv	TRUE	/	FALSE	1999999999	server_session_id	afd46bb22044446a8feb7ec194082e03
+.twitch.tv	TRUE	/	FALSE	1999999999	unique_id	kvyIEy96UzNUurfhCSYZIpmstPPYTwlh
+.twitch.tv	TRUE	/	FALSE	1999999999	unique_id_durable	kvyIEy96UzNUurfhCSYZIpmstPPYTwlh
+www.twitch.tv	TRUE	/	FALSE	1999999999	samesite	none
+.twitch.tv	TRUE	/	FALSE	1999999999	twitch.lohp.countryCode	CH
+

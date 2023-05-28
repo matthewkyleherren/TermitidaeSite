@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Twitch</ShortName>
+  <Description>Search Twitch</Description>
+  <Url type="text/html" template="https://www.twitch.tv/search?term={searchTerms}" />
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://www.twitch.tv/opensearch.xml" />
+</OpenSearchDescription>

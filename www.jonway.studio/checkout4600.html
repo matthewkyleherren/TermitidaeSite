@@ -1,0 +1,844 @@
+<!DOCTYPE html><!-- Last Published: Mon May 22 2023 14:18:47 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.jonway.studio" data-wf-page="63ab8ffaeb96a7d1a5a075ad" data-wf-site="5cb7be195426f23752acf2dc" lang="en">
+<!-- Mirrored from www.jonway.studio/checkout?5bbccdaf_page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 May 2023 22:51:43 GMT -->
+<head><meta charset="utf-8"/><title>JW.S ⌁ Checkout</title><meta content="JW.S ⌁ Checkout" property="og:title"/><meta content="https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/5e12f2ad6a42a43c0b633052_jws_opengraph.jpg" property="og:image"/><meta content="JW.S ⌁ Checkout" property="twitter:title"/><meta content="https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/5e12f2ad6a42a43c0b633052_jws_opengraph.jpg" property="twitter:image"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="google-site-verification=PQyMOlQiHXSmq7E2zHmWb4nX3aa0PJTza9XHUqpFg4A" name="google-site-verification"/><link href="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/css/jonway.webflow.58fd4b488.min.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63fc69f1d9cefaf19a6a8491_favicon-23.svg" rel="shortcut icon" type="image/x-icon"/><link href="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/5d3a54b55216e36947911481_Artboard.jpg" rel="apple-touch-icon"/><link href="checkout.html" rel="canonical"/><script async="" src="../www.googletagmanager.com/gtag/js9e0e?id=G-0QY08CE09B"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-0QY08CE09B', {'anonymize_ip': false});</script><!--
+______  /_ |     / /__  ___/
+___ _  /__ | /| / / _____ \ 
+/ /_/ / __ |/ |/ /______/ / 
+\____/  ____/|__/_(_)____/  
+-->
+
+
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+-->
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+<!-- Prevents loaf of Conditional Hidden Content -->
+  <script>
+    const eraseHidden =  () => {
+      document
+      .querySelectorAll(".w-condition-invisible")
+      .forEach(
+        el => {
+          el.remove();
+        } 
+      );
+  }
+
+  document.addEventListener("DOMContentLoaded", eraseHidden);
+  </script>
+
+
+<style>
+body .transition {display: block}
+.w-editor .transition {display: none;}
+.no-scroll-transition {overflow: hidden; position: relative;}
+</style>
+
+
+<!-- [Attributes by Finsweet] CMS Filter -->
+<script async src="../cdn.jsdelivr.net/npm/%40finsweet/attributes-cmsfilter%401/cmsfilter.js"></script>
+
+<!-- [Attributes by Finsweet] CMS Load -->
+<script async src="../cdn.jsdelivr.net/npm/%40finsweet/attributes-cmsload%401/cmsload.js"></script>
+
+<!-- [Attributes by Finsweet] CMS Sort -->
+<script async src="../cdn.jsdelivr.net/npm/%40finsweet/attributes-cmssort%401/cmssort.js"></script>
+
+<!-- [Attributes by Finsweet] CMS Nest -->
+<script async src="../cdn.jsdelivr.net/npm/%40finsweet/attributes-cmsnest%401/cmsnest.js"></script>
+
+<!-- [Attributes by Finsweet] List item counter -->
+<script defer src="../cdn.jsdelivr.net/npm/%40finsweet/attributes-countitems%401/countitems.js"></script>
+
+<!-- [Attributes by Finsweet] Copy to clipboard -->
+<script defer src="../cdn.jsdelivr.net/npm/%40finsweet/attributes-copyclip%401/copyclip.js"></script>
+
+<!-- [Attributes by Finsweet] Disable scrolling -->
+<script defer src="../cdn.jsdelivr.net/npm/%40finsweet/attributes-scrolldisable%401/scrolldisable.js"></script>
+
+
+<script>
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+// We listen to the resize event
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+</script>
+<script src="../js.stripe.com/v3/index.html" type="text/javascript" data-wf-ecomm-key="pk_live_nyPnaDuxaj8zDxRbuaPHJjip" data-wf-ecomm-acct-id="acct_1A6ZCkCOo1RoXKeH"></script><script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script></head><body><div><div class="local-css-embeds w-embed"><style>
+
+  *{
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  
+ 
+
+
+/*———— Page Scroll bar ————*/
+::-webkit-scrollbar{
+background:none;
+mix-blend-mode:multiply;
+width:1vw;
+}
+
+@media only screen and (max-width: 768px) {
+::-webkit-scrollbar{
+width:2vw;
+}
+}
+
+@media only screen and (min-width: 1440px) {
+::-webkit-scrollbar{
+width:1vw;
+}
+}
+
+@media only screen and (min-width: 1920px) {
+::-webkit-scrollbar{
+width:12px;
+}
+}
+
+::-webkit-scrollbar-button{
+display:none;
+}
+
+::-webkit-scrollbar-thumb { 
+background-image: url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/616f14aeef9e54d9939ee4c2_dropdown-bg-texture2.gif");
+background-repeat: repeat;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+
+
+/*———— Inverted Category SCroll (On Type Page) ————*/
+.CLW-routing-tiles .cat-slider::-webkit-scrollbar, .c-main-nav::-webkit-scrollbar{
+background:none;
+height:4px;
+width:4px;
+}
+
+.CLW-routing-tiles .cat-slider::-webkit-scrollbar-button{
+display:none;
+}
+
+.CLW-routing-tiles .cat-slider::-webkit-scrollbar-track{
+border-top: 1px #fff solid;
+    background-color:rgba(0, 0, 0, 0);
+    opacity:0;
+    }
+
+.CLW-routing-tiles .cat-slider::-webkit-scrollbar-thumb { 
+background-image: url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639cef9c9835788fdcd25b4e_giffycanvas2.gif");
+background-repeat: repeat;
+}
+
+
+/*
+.c-collec-scroll::-webkit-scrollbar-thumb { 
+background-image: url("https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63a1feeec3e6c93931847963_scroll-invert.gif");
+background-repeat: repeat;
+}
+*/
+
+
+
+
+/*———— Horiz Scroll Bar(Small) ————*/
+.c-subsec-links::-webkit-scrollbar, .c-navi-content::-webkit-scrollbar, .c-navi-sub.scroll::-webkit-scrollbar, .c-breads::-webkit-scrollbar{
+height:4px;
+width:4px;
+}
+
+@media only screen and (max-width: 768px) {
+.c-subsec-links::-webkit-scrollbar, .c-navi-content::-webkit-scrollbar, .c-navi-sub.scroll::-webkit-scrollbar, .c-breads::-webkit-scrollbar{
+height:3px;
+}
+}
+
+.c-subsec-links::-webkit-scrollbar-button, .c-navi-content::-webkit-scrollbar-button, .c-navi-sub.scroll::-webkit-scrollbar-button{
+display:none;
+}
+
+.c-subsec-links::-webkit-scrollbar-track, .c-navi-sub.scroll::-webkit-scrollbar-track{
+border-top: 1px #000 solid;
+    opacity:0;
+    }
+
+.c-subsec-links::-webkit-scrollbar-thumb, .c-navi-content::-webkit-scrollbar-thumb, .c-navi-sub.scroll::-webkit-scrollbar-thumb { 
+    border-radius: 2px;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+/*———— Horiz Scroll Bar(Medium) ————*/
+.c-clw-horiz-scroll::-webkit-scrollbar{
+height:20px;
+
+}
+
+@media only screen and (max-width: 768px) {
+.c-clw-horiz-scroll::-webkit-scrollbar{
+height:10px;
+}
+}
+
+.c-clw-horiz-scroll::-webkit-scrollbar-button{
+display:none;
+}
+
+.c-clw-horiz-scroll::-webkit-scrollbar-track{
+    background-color:rgba(255, 255, 255, 1);
+}
+
+.c-clw-horiz-scroll::-webkit-scrollbar-thumb { 
+        border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: none;
+}
+
+::selection {
+  color: black;
+  background: grey url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f812f729a7e04a9d583d59_pattern1.svg") no-repeat fixed center
+}
+
+
+.c-lighting, .c-product-lighting, .c-sub, .c-media-overlay, .c-bottom-bar, .c-cursor-canvas, .c-subsecs, .c-media-overpass, .c-index-item-media{
+pointer-events:none;
+}
+
+.c-subsec-link, .c-contact-btn, .c-sub-content, .c-contact, .c-anchor-nav, .c-search, .c-subsec-links{
+pointer-events:all !important;
+}
+
+
+/*––––––––– Slider Styling ––––––––*/
+  .w-slider-dot {
+width: 3px;
+height: 20px;
+right: 0px;
+}
+
+.w-slider-nav-invert>div.w-active, .w-slider-nav>div.w-active{
+height:40px;
+}
+
+.c-subsec-content{
+transform: translateZ(0);
+}
+
+
+.clw-series-feat, .c-subsec-links{
+overflow-y: hidden;
+}
+
+.c-navi-content{
+overflow-x: hidden;
+}
+
+.c-cart-wrapper{
+height:100vh;
+}
+
+.c-tag-tile, .c-catalog-item, .CI-catalog.related, .c-archive-item{
+break-inside: avoid-column;
+}
+
+/*Catalog item max characters*/
+.t-meta.file-name{
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  }
+  
+  .c-img-overlay{
+  will-change: auto !important;
+  }
+  
+  .img.overlay{
+  image-rendering: pixelated;
+  }
+  
+  @media only screen and (min-width: 1920px) {
+  .c-navi-sub.anchors{
+  display:flex !important;
+  }
+  }
+  
+  .IMG{
+  transform: translateZ(0) !important;
+  }
+</style></div><div id="TOP" class="faux-top"></div></div><div class="c-transition"><div class="transition"><div class="transition-trigger"></div><div class="transition-content"><div class="c-pl-lottie"><div data-is-ix2-target="1" class="lot-pre" data-w-id="ca71bda3-294c-c91d-4a89-3b3da8cc78b8" data-animation-type="lottie" data-src="https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/642360b84fa37e0f87e8479a_JWS-simple-loader.json" data-loop="1" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="1.5015014403440954" data-duration="0"></div></div></div></div></div><div class="c-explore"><a href="info/contact.html" class="c-explore-btn off w-inline-block"><div class="t-h6 line contact">Contact</div><div class="c-xplor-icon"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63d93a83e2c2a2b79e31e33b_Contact-light.svg" loading="lazy" alt=""/></div></a><div class="t-h4">[</div><div class="t-h2 r">®</div><div class="t-h4">] </div><div>All Rights Reserved JW.S® 2023 <br/>Los Angeles, CA</div></div><div class="c-mobile-nav"><div fs-scrolldisable-element="disable" class="c-mnav-open"><div class="c-mobilenav-toggle"><div class="btn-menu"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f443097b5b9ed745189bf2_Bracket-L%20(L).svg" loading="lazy" alt="" class="i-bracket menu"/><div class="c-nav-states"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f695a87afad3037ce4b135_Close.svg" loading="lazy" alt="" class="i-burger-state"/><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f44194f8f1ed6d0d7e11f9_Burger.svg" loading="lazy" alt="" class="i-burger-state"/></div><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f443696a107e76e5d7ffd9_Bracket-R%20(L).svg" loading="lazy" alt="" class="i-bracket menu"/></div></div></div><div fs-scrolldisable-element="enable" class="c-mnav-close"></div><div class="c-mobilenav-content"><div class="div-block-1164"><div class="c-mnav-main"><div class="c-mnav-sec"><div id="w-node-_46f379da-be2f-b72c-d3b1-b6d5d8fcb038-a5a075ad" class="c-mnav-sec-desc"><div class="c-mnav-mode current"><div class="t-h6">[ Navigate ]</div></div><div id="w-node-_6e558b89-09b9-0ca6-fb59-c228cc2c8e92-cc2c8e92" class="div-block-1170"><div class="p-small">The more traditional means of organizing content my content via content types.</div></div></div><div class="c-main-nav"><a href="index.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Home</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="index.html"/><a href="works/overview.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Works</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="works/overview.html"/><a href="goods.html" class="c-nav-link current w-inline-block"><div class="t-nav-link">Goods</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="goods.html"/><a href="delta.html" class="c-nav-link w-inline-block"><div class="t-nav-link">DELTA</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="delta.html"/><a href="info/overview.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Info</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="info/overview.html"/></div></div><div class="hr mobile-nav"></div><div class="c-mnav-sec"><div id="w-node-_46f379da-be2f-b72c-d3b1-b6d5d8fcb059-a5a075ad" class="c-mnav-sec-desc"><div id="w-node-_46f379da-be2f-b72c-d3b1-b6d5d8fcb05a-a5a075ad" class="c-mnav-mode"><div class="t-h6">[ Explore ]</div></div><div id="w-node-_1ef02e9c-1535-0be3-f0be-41a2f2dd107f-f2dd107f" class="div-block-1171"><div class="p-small">Alternative methods to browsing JW.S content. Via searchable database, themes, lists, more soon.</div></div></div><div class="c-main-nav"><a href="explore/catalog.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Catalog</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="explore/catalog.html"/><a href="explore/tags.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Tags</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="explore/tags.html"/><a href="explore/index-view.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Index</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="explore/index-view.html"/><a href="explore/landing.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Overview</div><div class="t-nav-link">→</div></a><link rel="prefetch" href="explore/landing.html"/></div></div><div id="w-node-_46f379da-be2f-b72c-d3b1-b6d5d8fcb073-a5a075ad" class="c-mnav-random"></div></div><div class="c-mnav-links"><div class="c-mnav-account"><a href="user-account" class="c-mnav-link sign-in w-inline-block"><div class="t-nav-link account">Sign In</div></a><a href="sign-up.html" class="c-mnav-link account w-inline-block"><div class="t-nav-link account">Create Account</div></a></div><a href="checkout.html" aria-current="page" class="c-mnav-link checkout w-inline-block w--current"><div class="t-nav-link checkout">Checkout</div></a></div></div><div fs-scrolldisable-element="enable" class="c-mnav-close body"><div class="c-mnav-closelabel"><div class="t-h4">[ Close ]</div></div></div></div></div><div id="intro" class="c-intro-faux"></div><div class="c-nav"><a href="index.html" class="c-nav-logo w-inline-block"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63fccf4a19715c343782f292_23-slash-dark.svg" loading="eager" alt="" class="logo-top-nav"/><div class="div-block-1173"><div><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63fe9865f551685237c5d9d8_logo-water.svg" loading="lazy" alt="" class="img water"/></div></div></a><div data-current="Navigate" data-easing="ease-in-out-quint" data-duration-in="250" data-duration-out="250" class="c-nav-tabs w-tabs"><div class="menu-nav-tabs w-tab-menu"><a data-w-tab="Navigate" class="tab-nav _1 w-inline-block w-tab-link w--current"><div class="t-meta">Navigate</div></a><a data-w-tab="Explore" class="tab-nav _2 w-inline-block w-tab-link"><div class="t-meta">Explore</div></a></div><div class="c-nav-content w-tab-content"><div data-w-tab="Navigate" class="tab-pane-navigate w-tab-pane w--tab-active"><div class="c-main-nav"><div class="c-navi-item"><a href="works/overview.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Works</div></a><link rel="prefetch" href="works/overview.html"/><div class="c-caption-hidden"><div class="t-meta caption">My Works as an independent design director.</div></div></div><div class="c-navi-item"><a href="goods.html" class="c-nav-link current w-inline-block"><div class="t-nav-link">Goods</div></a><link rel="prefetch" href="goods.html"/><div class="c-caption-hidden"><div class="t-meta caption">Synthesizations of various skillsets in the form of products.</div></div></div><div class="c-navi-item"><a href="delta.html" class="c-nav-link w-inline-block"><div class="t-nav-link">DELTA</div></a><link rel="prefetch" href="delta.html"/><div class="c-caption-hidden"><div class="t-meta caption">A divergent stream of my creative consciousness.</div></div></div><div class="c-navi-item"><a href="info/overview.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Info</div></a><link rel="prefetch" href="info/overview.html"/><div class="c-caption-hidden"><div class="t-meta caption">More information about me, and my work.</div></div></div></div></div><div data-w-tab="Explore" class="w-tab-pane"><div class="c-main-nav"><div class="c-navi-item"><a href="explore/catalog.html" class="c-nav-link current w-inline-block"><div class="t-nav-link">Catalog</div></a><link rel="prefetch" href="explore/catalog.html"/><div class="c-caption-hidden"><div class="t-meta caption">A searchable database of all my creative works</div></div></div><div class="c-navi-item"><a href="explore/tags.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Tags</div></a><link rel="prefetch" href="explore/tags.html"/><div class="c-caption-hidden"><div class="t-meta caption">Uniting disparate content via thematic commonalities</div></div></div><div class="c-navi-item"><a href="explore/index-view.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Index</div></a><link rel="prefetch" href="explore/index-view.html"/><div class="c-caption-hidden"><div class="t-meta caption">The utilitarians view of the entire site.</div></div></div><div class="c-navi-item"><a href="explore/landing.html" class="c-nav-link w-inline-block"><div class="t-nav-link">Overview</div></a><link rel="prefetch" href="explore/landing.html"/><div class="c-caption-hidden"><div class="t-meta caption">Expore? learn what it&#x27;s about</div></div></div></div></div></div></div><div class="c-title right"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63a32dd3acafff59bdfa9206_lock.svg" loading="lazy" alt="" class="i-icon lock"/><div class="t-h5 line mobile">  Secure Checkout</div></div></div><div class="c-subnav"><div id="w-node-d53b0486-1722-9323-213e-ef4df8499444-a5a075ad" class="c-navi"><div class="btn-navi"><div class="c-icon navigator"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63949ffd49089d4ddd7351c0_Index.svg" loading="lazy" alt="" class="i-icon index"/></div><div class="c-title mobile"><div class="t-h5 line">Index</div></div><div class="btn-expand"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f3ba3c38c64fe48bc319ec_Bracket-L.svg" loading="lazy" alt="" class="i-bracket"/><div class="c-plus navi"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/6393a136eb92f02660e3c8a1_%2b.svg" loading="lazy" alt="" class="plus"/></div><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f3ba89ea965868484fd90f_Bracket-R.svg" loading="lazy" alt="" class="i-bracket"/></div></div><div class="c-navi-content"><div class="c-title navi-sub first"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63949b42bada4741c8492b36_Routing.svg" loading="lazy" alt="" class="i-icon routing"/><div class="t-h5 line tm">Resources</div><div class="t-h5 line">↴</div></div><div class="c-navi-sub"><div class="p-small">Here&#x27;s a collection of links that might be helpful:<br/>‍</div><div class="c-list flush"><div class="c-list-item link"><div class="t-h6">→</div><a href="info/support/shipping-returns.html" target="_blank" class="t-h6 link"> Shipping + Returns Policy</a></div><div class="c-list-item link"><div class="t-h6">→</div><a href="info/support/terms-and-conditions.html" target="_blank" class="t-h6 link">Terms + Conditions</a></div><div class="c-list-item link"><div class="t-h6">→</div><a href="info/installation-gallery.html" target="_blank" class="t-h6 link"> Installation Gallery</a></div></div></div><div class="c-title navi-sub"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63976cf93fb56a386defc956_Meta.svg" loading="lazy" alt="" class="i-icon meta"/><div class="t-h5 line tm">Additional Info</div><div class="t-h5 line">↴</div></div><div class="c-navi-sub meta"><div class="c-meta-point post"><div>× Security</div><div><strong>TLS Encryption</strong></div></div><div class="c-meta-point post"><div>× CC Processor</div><div>Stripe</div></div><div class="c-meta-point post"><div>× SHipping</div><a href="#" class="w-inline-block"><div>Always INcluded</div></a></div><div class="c-meta-point post"><div>× Returns?</div><div>Let&#x27;s Talking</div></div></div><div class="c-title navi-sub"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63976cf93fb56a386defc956_Meta.svg" loading="lazy" alt="" class="i-icon meta"/><div class="t-h5 line tm">Have Questions?</div><div class="t-h5 line">↴</div></div><div class="c-navi-sub"><div class="p-small">If you still have questions, please feel free to reach out to me with questions about pricing, materials, logistics. etc.<br/>‍</div><div class="c-list flush"><div class="c-list-item link"><div class="t-h6">→</div><a href="info/support/shipping-returns.html" target="_blank" class="t-h6 link">orders@jonway.studio</a></div></div></div><div class="c-navixl-cover"></div></div><div class="c-navi-close main"></div></div><div class="c-breads"><a href="index.html" class="c-bread first w-inline-block"><div class="t-bread">J\V.s</div></a><div class="t-bread">/</div><a href="goods.html" class="c-bread w-inline-block"><div class="t-bread">Goods</div></a><div class="t-bread">/</div><div class="c-bread current"><div class="t-bread">Checkout</div></div></div><a href="#" class="c-ticker top w-inline-block"><div data-w-id="6f7ca2ca-42fa-e345-4048-19e61ecf4d72" class="c-ticker-wrap"><div class="c-ticker-content"><div class="c-marq-blk"><div class="t-h6 marq">sECURE ssl</div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639f0eae989451536d249e9a_Cart.svg" loading="lazy" alt="" class="i-icon cart"/></div><div class="c-marq-blk"><div class="t-h6 marq">oNE-STEP pROCESS</div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639f0eae989451536d249e9a_Cart.svg" loading="lazy" alt="" class="i-icon cart"/></div><div class="c-marq-blk"><div class="t-h6 marq">EZ PZ™</div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639f0eae989451536d249e9a_Cart.svg" loading="lazy" alt="" class="i-icon cart"/></div></div><div class="c-ticker-content"><div class="c-marq-blk"><div class="t-h6 marq">sECURE ssl</div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639f0eae989451536d249e9a_Cart.svg" loading="lazy" alt="" class="i-icon cart"/></div><div class="c-marq-blk"><div class="t-h6 marq">oNE-STEP pROCESS</div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639f0eae989451536d249e9a_Cart.svg" loading="lazy" alt="" class="i-icon cart"/></div><div class="c-marq-blk"><div class="t-h6 marq">EZ PZ™</div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639f0eae989451536d249e9a_Cart.svg" loading="lazy" alt="" class="i-icon cart"/></div></div></div></a><div id="w-node-_98bc5913-0ae4-c7cb-396c-5381b4b2ae25-a5a075ad" class="c-srch-contain"><div id="w-node-_4ee9fa8b-3f7c-44af-9556-22945bbccd9a-5bbccd9a" class="c-srch-copy"><div fs-cmsfilter-element="filters-20" class="f-block w-form"><form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-3"><div class="c-srch-icon"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/6395fa6b9db8feaf661e79d4_Search.svg" loading="lazy" alt="" class="i-icon search"/></div><div class="btn-expand search"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f3ba3c38c64fe48bc319ec_Bracket-L.svg" loading="lazy" alt="" class="i-bracket"/><div class="c-plus srch"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/6393a136eb92f02660e3c8a1_%2b.svg" loading="lazy" alt="" class="plus"/></div><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f3ba89ea965868484fd90f_Bracket-R.svg" loading="lazy" alt="" class="i-bracket"/></div><input type="text" class="i-tag-srch w-input" maxlength="256" name="Search" fs-cmsfilter-field="srch-tags" data-name="Search" placeholder="TAGS" id="Search"/><div class="c-srch-hide"></div></form><div class="w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div><div class="c-nav-srch-results nav"><div class="collection-list-wrapper-8 w-dyn-list"><div fs-cmsload-animation="slide-up" fs-cmsfilter-element="list-20" fs-cmsload-mode="render-all" fs-cmsload-element="list-20" role="list" class="collection-list-19 w-dyn-items"><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/freebie.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Freebie</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/generative" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Generative</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/graphic-design.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Graphic Design</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/hawaii.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Hawaii</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/iceland" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Iceland</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/incidental.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Incidental</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/insights" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Insights</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/inspiration" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Inspiration</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/interactive.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Interactive</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/jw-s.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">JW.S</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/jon-mangiagli" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Jon Mangiagli</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/lab" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Lab</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/lake" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Lake</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/landscape" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Landscape</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/layout.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Layout</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/lifestyle.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Lifestyle</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/lightroom" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Lightroom</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/live-streams.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Live Streams</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/long-exposure" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Long Exposure</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/los-angeles" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Los Angeles</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/mike-siordia" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">MIke Siordia</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/macabre" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Macabre</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/mike-denim" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Mike Denim</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/minimal" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Minimal</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/misc" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Misc</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/mobile" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Mobile</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/mock-ups.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Mock-ups</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/modern.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Modern</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/motion" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Motion</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/mountains" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Mountains</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/music" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Music</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/nature" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Nature</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/new-release.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">New Release</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/new-york" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">New York</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/news.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">News</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/original.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Originals</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/outdoors" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Outdoors</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/pnw" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">PNW</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/packaging" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Packaging</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/partnership.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Partnership</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/passion-project.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Passion Project</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/people.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">People</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/personal.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Personal</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/photo.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Photo</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/photo-shoot.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Photo shoot</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/photoshop" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Photoshop</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/pipeline" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Pipeline</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/playlist" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Playlist</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/portrait" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Portrait</div></a></div><div role="listitem" class="collection-item-19 w-dyn-item"><a href="tags/poster.html" class="link-block-24 w-inline-block"><div fs-cmsfilter-field="srch-tags" class="t-meta">Poster</div></a></div></div><div role="navigation" aria-label="List" class="w-pagination-wrapper pagination"><a href="checkoute73d?5bbccdaf_page=1" aria-label="Previous Page" class="w-pagination-previous"><svg class="w-pagination-previous-icon" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" transform="translate(0, 1)"><path fill="none" stroke="currentColor" fill-rule="evenodd" d="M8 10L4 6l4-4"></path></svg><div class="w-inline-block">Previous</div></a><a href="checkout287b.html?5bbccdaf_page=3" aria-label="Next Page" class="w-pagination-next"><div class="w-inline-block">Next</div><svg class="w-pagination-next-icon" height="12px" width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" transform="translate(0, 1)"><path fill="none" stroke="currentColor" fill-rule="evenodd" d="M4 2l4 4-4 4"></path></svg></a><link rel="prerender" href="checkout287b.html?5bbccdaf_page=3"/></div></div><div fs-cmsfilter-element="empty-20" class="c-tag-empty nav"><div class="t-h6">No Results, try again.</div><div fs-cmsfilter-element="reset" class="c-reset-btn"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63a62db579064880328b2849_refresh.svg" loading="lazy" alt="" class="i-icon refresh"/></div></div><a href="explore/tags.html" class="cta-all search w-inline-block"><div class="t-meta">Browse all Tags  →</div></a></div></div></div></div></div><div class="c-content"><div class="c-hero no-sub c-o"><div class="g-txt-layout no-sub"><div id="w-node-_438703e8-d28c-5e42-10c3-12ce2beb2f31-a5a075ad" class="t-h1">Checkout</div><div id="w-node-b85deea2-e13c-6a8e-841c-a63febaf638e-a5a075ad" class="t-h3">A secure, one-step checkout process.</div></div></div><div class="c-sub"><div class="c-sub-content"><a href="#" class="c-ticker w-inline-block"><div class="c-ticker-wrap"><div class="c-ticker-content"><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div></div><div class="c-ticker-content"><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div><div class="c-marq-blk"><div class="t-h6 marq">Checkout<br/></div></div><div class="c-marq-blk"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/639545fb048e7c523a868026_checkout.svg" loading="lazy" alt="" class="i-icon"/></div></div></div></a><div class="div-block-1166"><div class="c-navi-sub checkout"><div class="w-commerce-commercecheckoutsummaryblockheader c-co-panel-header steps"><div class="t-h3 line">Process</div></div><a href="#intro" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-0 ]</div><div id="w-node-_68ff1c6e-c7e7-c118-5841-39d09645bdb9-a5a075ad" class="c-anc-title"><div class="t-anchor-title">Intro</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#cart-contents" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-1 ]</div><div class="c-anc-title"><div class="t-anchor-title">Review Cart</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#email-address" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-2 ]</div><div class="c-anc-title"><div class="t-anchor-title">Email Address</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#shipping-address" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-3 ]</div><div class="c-anc-title"><div class="t-anchor-title">Shipping Address</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#shipping-method" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-4 ]</div><div class="c-anc-title"><div class="t-anchor-title">Shipping Method</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#payment-info" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-5 ]</div><div class="c-anc-title"><div class="t-anchor-title">Payment Info</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#billing-address" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-6 ]</div><div class="c-anc-title"><div class="t-anchor-title">Billing Address</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#checkout" class="c-anc-link c-o w-inline-block"><div class="t-anchor-no">[ 00-7 ]</div><div class="c-anc-title"><div class="t-anchor-title">Checkout</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div></a><a href="#footer" class="c-anc-link w-inline-block"><div class="t-anchor-no">[ 00-XX ]</div><div class="c-anc-title"><div class="t-anchor-title">FAQ</div><div class="t-anchor-title arrow">↴</div></div><div class="c-navi-close anchor"></div><div id="w-node-f82bf4e5-afaf-b0e2-c31e-fe3f967cd686-a5a075ad" class="c-navi-inactive"></div></a></div><div data-node-type="commerce-checkout-form-container" data-wf-checkout-query="query Dynamo2 {
+  database {
+    id
+    commerceOrder {
+      availableShippingMethods {
+        description
+        id
+        mode
+        name
+        price {
+          value
+          unit
+          decimalValue
+          string
+        }
+        selected
+      }
+      comment
+      customData {
+        checkbox
+        name
+        textArea
+        textInput
+      }
+      customerInfo {
+        billingAddress {
+          addressee
+          city
+          country
+          japanType
+          line1
+          line2
+          postalCode
+          state
+          type
+        }
+        identity {
+          email
+          fullName
+        }
+        shippingAddress {
+          addressee
+          city
+          country
+          japanType
+          line1
+          line2
+          postalCode
+          state
+          type
+        }
+        stripePayment {
+          card {
+            expires {
+              month
+              year
+            }
+            last4
+            provided
+            provider
+          }
+        }
+      }
+      downloadFiles {
+        id
+        name
+        url
+      }
+      extraItems {
+        name
+        pluginId
+        pluginName
+        price {
+          value
+          unit
+          decimalValue
+          string
+        }
+      }
+      id
+      paymentProcessor
+      startedOn
+      statusFlags {
+        billingAddressRequiresPostalCode
+        hasDownloads
+        hasSubscription
+        isFreeOrder
+        needAddress
+        needIdentity
+        needItems
+        needPayment
+        requiresShipping
+        shippingAddressRequiresPostalCode
+        shouldRecalc
+      }
+      subtotal {
+        value
+        unit
+        decimalValue
+        string
+      }
+      total {
+        value
+        unit
+        decimalValue
+        string
+      }
+      updatedOn
+      userItems {
+        count
+        rowTotal {
+          value
+          unit
+          decimalValue
+          string
+        }
+        sku {
+          f__draft_0ht
+          f__archived_0ht
+          f_main_image_4dr {
+            url
+            file {
+              size
+              origFileName
+              createdOn
+              updatedOn
+              mimeType
+              width
+              height
+              variants {
+                origFileName
+                quality
+                height
+                width
+                s3Url
+                error
+                size
+              }
+            }
+            alt
+          }
+          f_sku_values_3dr {
+            property {
+              id
+            }
+            value {
+              id
+            }
+          }
+          id
+        }
+        product {
+          id
+          f__draft_0ht
+          f__archived_0ht
+          f_name_
+          f_prod_tile_type_4dr9dr {
+            id
+            name
+          }
+          f_sku_properties_3dr {
+            id
+            name
+            enum {
+              id
+              name
+              slug
+            }
+          }
+          f_status_ {
+            id
+            name
+          }
+        }
+        id
+        subscriptionFrequency
+        subscriptionInterval
+        subscriptionTrial
+      }
+      userItemsCount
+    }
+  }
+  site {
+    id
+    commerce {
+      businessAddress {
+        country
+      }
+      defaultCountry
+      defaultCurrency
+      quickCheckoutEnabled
+    }
+  }
+}
+" data-wf-page-link-href-prefix="" class="w-commerce-commercecheckoutformcontainer f-co"><div class="c-co"><div class="w-commerce-commercelayoutmain c-co-content"><div id="cart-contents" class="c-sub c-o"><div class="c-sub-content"><div class="w-commerce-commercecheckoutorderitemswrapper c-co-panel"><div class="w-commerce-commercecheckoutsummaryblockheader c-co-panel-header"><div class="t-h3 line">Cart Content</div><div class="c-title count"><div class="t-meta">[ </div><div class="t-meta">0</div><div fs-countitems-element="value" class="t-meta">0</div><div class="t-meta"> ]</div></div><div class="c-meta-point"><div class="t-meta">001 / 006</div></div></div><fieldset class="w-commerce-commercecheckoutblockcontent c-co-panel-content contents"><script type="text/x-wf-template" id="wf-template-5ce445780034c87bab89b41a000000000083">%3Cdiv%20role%3D%22listitem%22%20class%3D%22w-commerce-commercecheckoutorderitem%20ci-co-item%22%3E%3Cdiv%20class%3D%22c-prod-tile-media%20checkout%22%3E%3Cdiv%20class%3D%22c-lighting%20tile%22%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aprod-tile-type%2522%253A%257B%2522eq%2522%253A%25224c04d6d667b38c1ced44f47c50239aee%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-mock-poster%20w-condition-invisible%22%3E%3Cdiv%20class%3D%22c-lighting%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-poster-hw%20home%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F6378d9f49d37fd8702907f9c_JWS_Prints_mock-up_print-HW.png%22%20loading%3D%22lazy%22%20alt%3D%22%22%20class%3D%22img%22%2F%3E%3Cimg%20src%3D%22https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F63f0ed36a2038a1fef6166ca_wood-plank-3.png%22%20loading%3D%22lazy%22%20sizes%3D%22100vw%22%20srcset%3D%22https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F63f0ed36a2038a1fef6166ca_wood-plank-3-p-500.png%20500w%2C%20https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F63f0ed36a2038a1fef6166ca_wood-plank-3.png%20520w%22%20alt%3D%22%22%20class%3D%22i-plank%22%2F%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-poster-content%20home%22%3E%3Cdiv%20class%3D%22c-poster-img%22%3E%3Cdiv%20class%3D%22c-product-lighting%22%3E%3C%2Fdiv%3E%3Cimg%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20src%3D%22%22%20alt%3D%22%22%20class%3D%22img%20overlay%20w-dyn-bind-empty%22%2F%3E%3Cimg%20loading%3D%22eager%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20src%3D%22%22%20alt%3D%22%22%20class%3D%22img%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-img-overlay%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-prod-shadow-soft%20poster%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aprod-tile-type%2522%253A%257B%2522eq%2522%253A%2522bf46a44de4e5c7b66e418623eac597c8%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-mock-prints%20w-condition-invisible%22%3E%3Cdiv%20class%3D%22c-lighting%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-print-hw%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F6378d9f49d37fd8702907f9c_JWS_Prints_mock-up_print-HW.png%22%20loading%3D%22lazy%22%20alt%3D%22%22%20class%3D%22img%22%2F%3E%3Cimg%20src%3D%22https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F63f0ed36a2038a1fef6166ca_wood-plank-3.png%22%20loading%3D%22lazy%22%20sizes%3D%22100vw%22%20srcset%3D%22https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F63f0ed36a2038a1fef6166ca_wood-plank-3-p-500.png%20500w%2C%20https%3A%2F%2Fuploads-ssl.webflow.com%2F5cb7be195426f23752acf2dc%2F63f0ed36a2038a1fef6166ca_wood-plank-3.png%20520w%22%20alt%3D%22%22%20class%3D%22i-plank%22%2F%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-print-content%22%3E%3Cdiv%20class%3D%22c-product-lighting%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-print-img%20related%22%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20overlay%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-img-overlay%22%3E%3C%2Fdiv%3E%3Cimg%20src%3D%22%22%20loading%3D%22eager%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-print-border%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-prod-shadow-soft%20print-tile%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aprod-tile-type%2522%253A%257B%2522eq%2522%253A%2522e0b462e15ec14d9e6c10e6d1575406fe%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-mock-phone%20w-condition-invisible%22%3E%3Cdiv%20class%3D%22c-phone%20checkout%22%3E%3Cdiv%20class%3D%22c-phone-crop%20checkout%22%3E%3Cdiv%20class%3D%22c-phone-screen%22%3E%3Cdiv%20class%3D%22c-product-lighting%20phone%22%3E%3C%2Fdiv%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20overlay%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-img-overlay%22%3E%3C%2Fdiv%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20w-dyn-bind-empty%22%2F%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-phone-btn%20_2%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-phone-btn%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-phone-frame%20checkout%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-prod-shadow-soft%20phone-checkout%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aprod-tile-type%2522%253A%257B%2522eq%2522%253A%25222bc1b98786d9ae9020eb27c7fd31c7e3%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-mock-book%20w-condition-invisible%22%3E%3Cdiv%20class%3D%22c-book%20cat-slide%22%3E%3Cdiv%20class%3D%22c-book-spine%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-product-lighting%20book%22%3E%3C%2Fdiv%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20overlay%20w-dyn-bind-empty%22%2F%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-prod-shadow-soft%20book%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aprod-tile-type%2522%253A%257B%2522eq%2522%253A%25227391afaa46578ed44d7f012c448d4560%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-mock-cpu%20w-condition-invisible%22%3E%3Cdiv%20class%3D%22c-cpu%22%3E%3Cdiv%20class%3D%22c-cpu-frame%22%3E%3Cdiv%20class%3D%22c-cpu-screen%22%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20overlay%20w-dyn-bind-empty%22%2F%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-img-overlay%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-product-lighting%20cpu%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-cpu-stand%22%3E%3Cdiv%20class%3D%22c-cpu-stand-base%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-cpu-desk%20light%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aprod-tile-type%2522%253A%257B%2522eq%2522%253A%25220af4d6553ffa414dc2ddf88efb850572%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-prod-others%20w-condition-invisible%22%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20overlay%20w-dyn-bind-empty%22%2F%3E%3Cimg%20src%3D%22%22%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20alt%3D%22%22%20class%3D%22img%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-img-overlay%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Aprod-tile-type%2522%253A%257B%2522eq%2522%253A%252285fa1f686d20844a40900447e211b759%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-mock-playlist%20w-condition-invisible%22%3E%3Cdiv%20class%3D%22c-lighting%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-playlist-content%22%3E%3Cdiv%20class%3D%22c-product-lighting%20playlist%22%3E%3C%2Fdiv%3E%3Cimg%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20src%3D%22%22%20alt%3D%22%22%20class%3D%22img%20overlay%20w-dyn-bind-empty%22%2F%3E%3Cimg%20loading%3D%22lazy%22%20data-wf-bindings%3D%22%255B%257B%2522src%2522%253A%257B%2522type%2522%253A%2522ImageRef%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_main_image_4dr%2522%257D%257D%255D%22%20src%3D%22%22%20alt%3D%22%22%20class%3D%22img%20w-dyn-bind-empty%22%2F%3E%3Cdiv%20class%3D%22c-img-overlay%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-prod-shadow-soft%20playlist-tile%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-co-item-info%22%3E%3Cdiv%20class%3D%22w-commerce-commercecheckoutorderitemdescriptionwrapper%20c-co-item-deets%22%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_name_%2522%257D%257D%255D%22%20class%3D%22w-commerce-commerceboldtextblock%20t-h4%20w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3Cdiv%20class%3D%22c-co-item-meta%22%3E%3Cdiv%20class%3D%22w-commerce-commercecheckoutorderitemquantitywrapper%20c-title%22%3E%3Cdiv%20class%3D%22t-h6%22%3EQuantity%3A%20%20%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522Number%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522numberPrecision%2522%252C%2522params%2522%253A%255B%25220%2522%252C%2522numberPrecision%2522%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.count%2522%257D%257D%255D%22%20class%3D%22t-h6%20tm%22%3E1%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cscript%20type%3D%22text%2Fx-wf-template%22%20id%3D%22wf-template-5ce445780034c87bab89b41a00000000008c%22%3E%253Cli%2520class%253D%2522ci-co-item-options%2522%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522PlainText%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D.name%252522%25257D%25257D%25255D%2522%2520class%253D%2522t-h6%2520w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253Cspan%2520class%253D%2522t-h6%2522%253E%253A%2520%253C%252Fspan%253E%253Cspan%2520data-wf-bindings%253D%2522%25255B%25257B%252522innerHTML%252522%25253A%25257B%252522type%252522%25253A%252522CommercePropValues%252522%25252C%252522filter%252522%25253A%25257B%252522type%252522%25253A%252522identity%252522%25252C%252522params%252522%25253A%25255B%25255D%25257D%25252C%252522dataPath%252522%25253A%252522database.commerceOrder.userItems%25255B%25255D.product.f_sku_properties_3dr%25255B%25255D%252522%25257D%25257D%25255D%2522%2520class%253D%2522t-h6%2520w-dyn-bind-empty%2522%253E%253C%252Fspan%253E%253C%252Fli%253E%3C%2Fscript%3E%3Cul%20data-wf-bindings%3D%22%255B%257B%2522optionSets%2522%253A%257B%2522type%2522%253A%2522CommercePropTable%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%5B%5D%2522%257D%257D%252C%257B%2522optionValues%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.sku.f_sku_values_3dr%2522%257D%257D%255D%22%20class%3D%22w-commerce-commercecheckoutorderitemoptionlist%20cl-co-item-options%22%20data-wf-collection%3D%22database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%22%20data-wf-template-id%3D%22wf-template-5ce445780034c87bab89b41a00000000008c%22%3E%3Cli%20class%3D%22ci-co-item-options%22%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22t-h6%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%20class%3D%22t-h6%22%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22t-h6%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E%3C%2Ful%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20id%3D%22w-node-_5ce445780034c87bab89b41a000000000092-a5a075ad%22%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.rowTotal%2522%257D%257D%255D%22%20class%3D%22t-h5%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3Cdiv%20id%3D%22w-node-ab3d4b9d-e5bb-3686-8bc3-b3618453e22a-a5a075ad%22%20data-wf-bindings%3D%22%255B%255D%22%20data-wf-conditions%3D%22%257B%2522condition%2522%253A%257B%2522fields%2522%253A%257B%2522product%253Astatus%2522%253A%257B%2522eq%2522%253A%252266c5a10c5c5aaf3b4dbff5fb1c4b41bf%2522%252C%2522type%2522%253A%2522Option%2522%257D%257D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D%2522%257D%22%20class%3D%22c-co-pre-order-notif%20w-condition-invisible%22%3E%3Cdiv%20class%3D%22t-h4%22%3E(%20!%20)%20Notice%20(%20!%20)%3C%2Fdiv%3E%3Cdiv%20class%3D%22t-h6%22%3EThis%20is%20still%20in%20pre-order.%20There%20is%20no%20definitive%20launch%20date%2C%20but%20I%20will%20follow%20up%20with%20purchase%20when%20it%20ships.%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E</script><div fs-countitems-element="list" role="list" class="w-commerce-commercecheckoutorderitemslist cl-co-items" data-wf-collection="database.commerceOrder.userItems" data-wf-template-id="wf-template-5ce445780034c87bab89b41a000000000083"><div role="listitem" class="w-commerce-commercecheckoutorderitem ci-co-item"><div class="c-prod-tile-media checkout"><div class="c-lighting tile"></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aprod-tile-type%22%3A%7B%22eq%22%3A%224c04d6d667b38c1ced44f47c50239aee%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-mock-poster w-condition-invisible"><div class="c-lighting"></div><div class="c-poster-hw home"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/6378d9f49d37fd8702907f9c_JWS_Prints_mock-up_print-HW.png" loading="lazy" alt="" class="img"/><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f0ed36a2038a1fef6166ca_wood-plank-3.png" loading="lazy" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f0ed36a2038a1fef6166ca_wood-plank-3-p-500.png 500w, https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f0ed36a2038a1fef6166ca_wood-plank-3.png 520w" alt="" class="i-plank"/></div><div class="c-poster-content home"><div class="c-poster-img"><div class="c-product-lighting"></div><img loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" src="#" alt="" class="img overlay w-dyn-bind-empty"/><img loading="eager" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" src="#" alt="" class="img w-dyn-bind-empty"/><div class="c-img-overlay"></div></div><div class="c-prod-shadow-soft poster"></div></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aprod-tile-type%22%3A%7B%22eq%22%3A%22bf46a44de4e5c7b66e418623eac597c8%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-mock-prints w-condition-invisible"><div class="c-lighting"></div><div class="c-print-hw"><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/6378d9f49d37fd8702907f9c_JWS_Prints_mock-up_print-HW.png" loading="lazy" alt="" class="img"/><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f0ed36a2038a1fef6166ca_wood-plank-3.png" loading="lazy" sizes="100vw" srcset="https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f0ed36a2038a1fef6166ca_wood-plank-3-p-500.png 500w, https://uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/63f0ed36a2038a1fef6166ca_wood-plank-3.png 520w" alt="" class="i-plank"/></div><div class="c-print-content"><div class="c-product-lighting"></div><div class="c-print-img related"><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img overlay w-dyn-bind-empty"/><div class="c-img-overlay"></div><img src="#" loading="eager" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img w-dyn-bind-empty"/><div class="c-print-border"></div></div><div class="c-prod-shadow-soft print-tile"></div></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aprod-tile-type%22%3A%7B%22eq%22%3A%22e0b462e15ec14d9e6c10e6d1575406fe%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-mock-phone w-condition-invisible"><div class="c-phone checkout"><div class="c-phone-crop checkout"><div class="c-phone-screen"><div class="c-product-lighting phone"></div><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img overlay w-dyn-bind-empty"/><div class="c-img-overlay"></div><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img w-dyn-bind-empty"/></div></div><div class="c-phone-btn _2"></div><div class="c-phone-btn"></div><div class="c-phone-frame checkout"></div><div class="c-prod-shadow-soft phone-checkout"></div></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aprod-tile-type%22%3A%7B%22eq%22%3A%222bc1b98786d9ae9020eb27c7fd31c7e3%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-mock-book w-condition-invisible"><div class="c-book cat-slide"><div class="c-book-spine"></div><div class="c-product-lighting book"></div><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img overlay w-dyn-bind-empty"/><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img w-dyn-bind-empty"/><div class="c-prod-shadow-soft book"></div></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aprod-tile-type%22%3A%7B%22eq%22%3A%227391afaa46578ed44d7f012c448d4560%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-mock-cpu w-condition-invisible"><div class="c-cpu"><div class="c-cpu-frame"><div class="c-cpu-screen"><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img overlay w-dyn-bind-empty"/><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img w-dyn-bind-empty"/><div class="c-img-overlay"></div></div><div class="c-product-lighting cpu"></div></div><div class="c-cpu-stand"><div class="c-cpu-stand-base"></div></div><div class="c-cpu-desk light"></div></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aprod-tile-type%22%3A%7B%22eq%22%3A%220af4d6553ffa414dc2ddf88efb850572%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-prod-others w-condition-invisible"><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img overlay w-dyn-bind-empty"/><img src="#" loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" alt="" class="img w-dyn-bind-empty"/><div class="c-img-overlay"></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Aprod-tile-type%22%3A%7B%22eq%22%3A%2285fa1f686d20844a40900447e211b759%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-mock-playlist w-condition-invisible"><div class="c-lighting"></div><div class="c-playlist-content"><div class="c-product-lighting playlist"></div><img loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" src="#" alt="" class="img overlay w-dyn-bind-empty"/><img loading="lazy" data-wf-bindings="%5B%7B%22src%22%3A%7B%22type%22%3A%22ImageRef%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_main_image_4dr%22%7D%7D%5D" src="#" alt="" class="img w-dyn-bind-empty"/><div class="c-img-overlay"></div></div><div class="c-prod-shadow-soft playlist-tile"></div></div></div><div class="c-co-item-info"><div class="w-commerce-commercecheckoutorderitemdescriptionwrapper c-co-item-deets"><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_name_%22%7D%7D%5D" class="w-commerce-commerceboldtextblock t-h4 w-dyn-bind-empty"></div><div class="c-co-item-meta"><div class="w-commerce-commercecheckoutorderitemquantitywrapper c-title"><div class="t-h6">Quantity:  </div><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22Number%22%2C%22filter%22%3A%7B%22type%22%3A%22numberPrecision%22%2C%22params%22%3A%5B%220%22%2C%22numberPrecision%22%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.count%22%7D%7D%5D" class="t-h6 tm">1</div></div><script type="text/x-wf-template" id="wf-template-5ce445780034c87bab89b41a00000000008c">%3Cli%20class%3D%22ci-co-item-options%22%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22t-h6%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3Cspan%20class%3D%22t-h6%22%3E%3A%20%3C%2Fspan%3E%3Cspan%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePropValues%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.userItems%255B%255D.product.f_sku_properties_3dr%255B%255D%2522%257D%257D%255D%22%20class%3D%22t-h6%20w-dyn-bind-empty%22%3E%3C%2Fspan%3E%3C%2Fli%3E</script><ul data-wf-bindings="%5B%7B%22optionSets%22%3A%7B%22type%22%3A%22CommercePropTable%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr[]%22%7D%7D%2C%7B%22optionValues%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.sku.f_sku_values_3dr%22%7D%7D%5D" class="w-commerce-commercecheckoutorderitemoptionlist cl-co-item-options" data-wf-collection="database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr" data-wf-template-id="wf-template-5ce445780034c87bab89b41a00000000008c"><li class="ci-co-item-options"><span data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D.name%22%7D%7D%5D" class="t-h6 w-dyn-bind-empty"></span><span class="t-h6">: </span><span data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePropValues%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.product.f_sku_properties_3dr%5B%5D%22%7D%7D%5D" class="t-h6 w-dyn-bind-empty"></span></li></ul></div></div><div id="w-node-_5ce445780034c87bab89b41a000000000092-a5a075ad" data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D.rowTotal%22%7D%7D%5D" class="t-h5">$ 0.00 USD</div><div id="w-node-ab3d4b9d-e5bb-3686-8bc3-b3618453e22a-a5a075ad" data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22product%3Astatus%22%3A%7B%22eq%22%3A%2266c5a10c5c5aaf3b4dbff5fb1c4b41bf%22%2C%22type%22%3A%22Option%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder.userItems%5B%5D%22%7D" class="c-co-pre-order-notif w-condition-invisible"><div class="t-h4">( ! ) Notice ( ! )</div><div class="t-h6">This is still in pre-order. There is no definitive launch date, but I will follow up with purchase when it ships.</div></div></div></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22userItemsCount%22%3A%7B%22eq%22%3A0%2C%22type%22%3A%22Number%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D" class="c-co-empty"><div class="t-h5">There&#x27;s nothing in your cart Yet.<br/><br/>:(</div></div></fieldset></div></div></div><div id="email-address" class="c-sub c-o"><div class="c-sub-content"><form data-node-type="commerce-checkout-customer-info-wrapper" class="w-commerce-commercecheckoutcustomerinfowrapper c-co-panel"><div class="w-commerce-commercecheckoutblockheader c-co-panel-header"><div class="t-h3 line">Email Address</div><div class="div-block-845"><div class="t-meta">002 / 006</div></div></div><fieldset class="w-commerce-commercecheckoutblockcontent c-co-panel-content"><label class="w-commerce-commercecheckoutlabel t-h6">Email *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.customerEmail%22%7D%7D%5D" class="w-commerce-commercecheckoutemailinput input" name="email" required=""/></fieldset></form></div></div><div id="shipping-address" class="c-sub c-o"><div class="c-sub-content"><form data-node-type="commerce-checkout-shipping-address-wrapper" class="w-commerce-commercecheckoutshippingaddresswrapper c-co-panel"><div class="w-commerce-commercecheckoutblockheader c-co-panel-header"><div class="t-h3 line">Shipping Address</div><div class="div-block-845"><div class="t-meta">003 / 006</div></div></div><fieldset class="w-commerce-commercecheckoutblockcontent c-co-panel-content"><div class="c-inputs"><div class="c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Full Name *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressAddressee%22%7D%7D%5D" class="w-commerce-commercecheckoutshippingfullname input" name="name" required=""/></div><div class="c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Street Address *</label><div class="c-input-stack"><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressLine1%22%7D%7D%5D" class="w-commerce-commercecheckoutshippingstreetaddress input" name="address_line1" required=""/><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressLine2%22%7D%7D%5D" class="w-commerce-commercecheckoutshippingstreetaddressoptional input" name="address_line2"/></div></div><div class="w-commerce-commercecheckoutrow c-input-row"><div class="w-commerce-commercecheckoutcolumn c-input"><label class="w-commerce-commercecheckoutlabel t-h6">City *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressCity%22%7D%7D%5D" class="w-commerce-commercecheckoutshippingcity input" name="address_city" required=""/></div><div class="w-commerce-commercecheckoutcolumn c-input"><label class="w-commerce-commercecheckoutlabel t-h6">State/Province*</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressState%22%7D%7D%5D" class="w-commerce-commercecheckoutshippingstateprovince input" name="address_state"/></div><div class="w-commerce-commercecheckoutcolumn c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Zip Code *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressPostalCode%22%7D%7D%5D" data-node-type="commerce-checkout-shipping-zip-field" class="w-commerce-commercecheckoutshippingzippostalcode input" name="address_zip" required=""/></div></div><div class="c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Country *</label><select data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.shippingAddressCountry%22%7D%7D%5D" class="w-commerce-commercecheckoutshippingcountryselector checkout-dropdown" name="address_country"><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, Saint Eustatius and Saba</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="CV">Cabo Verde</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Curacao</option><option value="CY">Cyprus</option><option value="CZ">Czechia</option><option value="CD">Democratic Republic of the Congo</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="SZ">Eswatini</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="XK">Kosovo</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="KP">North Korea</option><option value="MK">North Macedonia</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="CG">Republic of the Congo</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint Barthelemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="VI">U.S. Virgin Islands</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option selected="" value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select></div></div></fieldset></form></div></div><div id="shipping-method" class="c-sub c-o"><div class="c-sub-content"><form data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22requiresShipping%22%3A%7B%22eq%22%3A%22true%22%2C%22type%22%3A%22Bool%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D" data-node-type="commerce-checkout-shipping-methods-wrapper" class="w-commerce-commercecheckoutshippingmethodswrapper c-co-panel"><div class="w-commerce-commercecheckoutblockheader c-co-panel-header"><div class="t-h3 line">Shipping Method</div><div class="c-meta-point"><div class="t-meta">004 / 006</div></div></div><fieldset class="c-co-panel-content"><script type="text/x-wf-template" id="wf-template-5ce445780034c87bab89b41a000000000042">%3Clabel%20class%3D%22w-commerce-commercecheckoutshippingmethoditem%20shipping-method%22%3E%3Cinput%20type%3D%22radio%22%20required%3D%22%22%20data-wf-bindings%3D%22%255B%257B%2522id%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.availableShippingMethods%255B%255D.id%2522%257D%257D%252C%257B%2522value%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.availableShippingMethods%255B%255D.id%2522%257D%257D%252C%257B%2522checked%2522%253A%257B%2522type%2522%253A%2522Bool%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.availableShippingMethods%255B%255D.selected%2522%257D%257D%255D%22%20class%3D%22radiobtn%22%20name%3D%22shipping-method-choice%22%2F%3E%3Cdiv%20class%3D%22w-commerce-commercecheckoutshippingmethoddescriptionblock%22%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.availableShippingMethods%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22w-commerce-commerceboldtextblock%20t-h4%20line%20w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.availableShippingMethods%255B%255D.description%2522%257D%257D%255D%22%20class%3D%22checkout-product-details%20shipping%20w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.availableShippingMethods%255B%255D.price%2522%257D%257D%255D%22%20class%3D%22t-h5%20line%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3C%2Flabel%3E</script><div data-node-type="commerce-checkout-shipping-methods-list" class="w-commerce-commercecheckoutshippingmethodslist shipping-method-list" data-wf-collection="database.commerceOrder.availableShippingMethods" data-wf-template-id="wf-template-5ce445780034c87bab89b41a000000000042"><label class="w-commerce-commercecheckoutshippingmethoditem shipping-method"><input type="radio" required="" data-wf-bindings="%5B%7B%22id%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.availableShippingMethods%5B%5D.id%22%7D%7D%2C%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.availableShippingMethods%5B%5D.id%22%7D%7D%2C%7B%22checked%22%3A%7B%22type%22%3A%22Bool%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.availableShippingMethods%5B%5D.selected%22%7D%7D%5D" class="radiobtn" name="shipping-method-choice"/><div class="w-commerce-commercecheckoutshippingmethoddescriptionblock"><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.availableShippingMethods%5B%5D.name%22%7D%7D%5D" class="w-commerce-commerceboldtextblock t-h4 line w-dyn-bind-empty"></div><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.availableShippingMethods%5B%5D.description%22%7D%7D%5D" class="checkout-product-details shipping w-dyn-bind-empty"></div></div><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.availableShippingMethods%5B%5D.price%22%7D%7D%5D" class="t-h5 line">$ 0.00 USD</div></label></div><div data-node-type="commerce-checkout-shipping-methods-empty-state" style="display:none" class="w-commerce-commercecheckoutshippingmethodsemptystate empty-state-5"><div class="div-block-423"><div class="p-small">Please specify your shipping address to determine what shipping methods are available for your location.<br/></div><div class="t-h5">*Disregard this warning if You&#x27;re only purchasing digital downloads*</div></div></div></fieldset></form></div></div><div id="payment-info" class="c-sub c-o"><div class="c-sub-content"><div class="w-commerce-commercecheckoutpaymentinfowrapper c-co-panel"><div class="w-commerce-commercecheckoutblockheader c-co-panel-header"><div class="t-h3 line">Payment Info</div><div class="t-required tm">  * Required</div><div class="div-block-845"><div class="t-meta">005 / 006</div></div></div><fieldset class="w-commerce-commercecheckoutblockcontent c-co-panel-content"><div class="c-inputs"><div class="c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Card Number *</label><div data-wf-stripe-element-type="cardNumber" data-wf-style-map="{}" class="w-commerce-commercecheckoutcardnumber input cc"><div></div></div></div><div class="w-commerce-commercecheckoutrow c-input-row"><div class="w-commerce-commercecheckoutcolumn c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Expiration Date *</label><div data-wf-stripe-element-type="cardExpiry" data-wf-style-map="{}" class="w-commerce-commercecheckoutcardexpirationdate input"><div></div></div></div><div class="w-commerce-commercecheckoutcolumn c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Security Code *</label><div data-wf-stripe-element-type="cardCvc" data-wf-style-map="{}" class="w-commerce-commercecheckoutcardsecuritycode input"><div></div></div></div></div></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22requiresShipping%22%3A%7B%22eq%22%3A%22true%22%2C%22type%22%3A%22Bool%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D" class="w-commerce-commercecheckoutbillingaddresstogglewrapper c-checkbox"><input type="checkbox" id="billing-address-toggle" data-node-type="commerce-checkout-billing-address-toggle-checkbox" class="w-commerce-commercecheckoutbillingaddresstogglecheckbox checkbox" checked=""/><label for="billing-address-toggle" class="w-commerce-commercecheckoutbillingaddresstogglelabel checkbox-label">Billing address is the same as shipping</label></div></fieldset></div></div></div><div id="billing-address" class="c-sub c-o"><div class="c-sub-content"><form data-node-type="commerce-checkout-billing-address-wrapper" style="display:none" class="w-commerce-commercecheckoutbillingaddresswrapper c-co-panel last"><div class="w-commerce-commercecheckoutblockheader c-co-panel-header"><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22total%22%3A%7B%22gt%22%3A0%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D" class="t-h3 line">Billing Address</div><div class="div-block-845"><div class="t-meta">006 / 006</div></div><h4 data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22total%22%3A%7B%22eq%22%3A0%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D" class="checkout-section-title">Customer Info.</h4><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22total%22%3A%7B%22eq%22%3A0%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D" class="t-required">*Put Whatever @ $0.00 Total</div></div><fieldset class="w-commerce-commercecheckoutblockcontent c-co-panel-content last"><div class="c-inputs"><div class="c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Full Name *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressAddressee%22%7D%7D%5D" class="w-commerce-commercecheckoutbillingfullname input" name="name" required=""/></div><div class="c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Street Address *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressLine1%22%7D%7D%5D" class="w-commerce-commercecheckoutbillingstreetaddress input first-line" name="address_line1" required=""/><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressLine2%22%7D%7D%5D" class="w-commerce-commercecheckoutbillingstreetaddressoptional input" name="address_line2"/></div><div class="w-commerce-commercecheckoutrow c-input-row"><div class="w-commerce-commercecheckoutcolumn c-input row"><label class="w-commerce-commercecheckoutlabel t-h6">City *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressCity%22%7D%7D%5D" class="w-commerce-commercecheckoutbillingcity input" name="address_city" required=""/></div><div class="w-commerce-commercecheckoutcolumn c-input"><label class="w-commerce-commercecheckoutlabel t-h6">State/Province *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressState%22%7D%7D%5D" class="w-commerce-commercecheckoutbillingstateprovince input" name="address_state"/></div><div class="w-commerce-commercecheckoutcolumn c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Zip/Postal Code *</label><input type="text" data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressPostalCode%22%7D%7D%5D" data-node-type="commerce-checkout-billing-zip-field" class="w-commerce-commercecheckoutbillingzippostalcode input" name="address_zip" required=""/></div></div><div class="c-input"><label class="w-commerce-commercecheckoutlabel t-h6">Country</label><select data-wf-bindings="%5B%7B%22value%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.billingAddressCountry%22%7D%7D%5D" class="w-commerce-commercecheckoutbillingcountryselector checkout-dropdown" name="address_country"><option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, Saint Eustatius and Saba</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="CV">Cabo Verde</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">Curacao</option><option value="CY">Cyprus</option><option value="CZ">Czechia</option><option value="CD">Democratic Republic of the Congo</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="SZ">Eswatini</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="XK">Kosovo</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="KP">North Korea</option><option value="MK">North Macedonia</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="CG">Republic of the Congo</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="BL">Saint Barthelemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome and Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia and the South Sandwich Islands</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="VI">U.S. Virgin Islands</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option selected="" value="US">United States</option><option value="UM">United States Minor Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select></div></div><div class="dropdown-styling w-embed"><style>
+.checkout-dropdown{
+background-image: url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/5f000cb4e8307056e8a9b8c7_%2b.svg");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+}
+</style></div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22total%22%3A%7B%22eq%22%3A0%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D"><div class="t-meta-title">[NOTE FROM JW.S]</div><div class="p-small">You might be wondering why you need to enter a billing address if your total is $0.00. Me too. Its a just a limitation of the e-comm platform I use, so feel free to get creative with your info if you&#x27;d be more comfortable that way.</div></div></fieldset></form></div></div></div><div id="checkout" class="w-commerce-commercelayoutsidebar c-co-summary co"><div class="c-co-summary-content"><div data-node-type="commerce-checkout-error-state" style="display:none" class="w-commerce-commercecheckouterrorstate error-state-2"><div aria-live="polite" class="error-text w-checkout-error-msg" data-w-info-error="(!) There was an error processing your customer info.  Please try again, or contact us if you continue to have problems." data-w-shipping-error="Sorry. We can’t ship your order to the address provided." data-w-billing-error="Your payment could not be completed with the payment information provided. Please make sure that your card and billing address information is correct, or try a different payment card, to complete this order. Contact us if you continue to have problems." data-w-payment-error="There was an error processing your payment. Please try again, or contact us if you continue to have problems." data-w-pricing-error="The prices of one or more items in your cart have changed. Please refresh this page and try again." data-w-minimum-error="The order minimum was not met. Add more items to your cart to continue." data-w-extras-error="A merchant setting has changed that impacts your cart. Please refresh and try again." data-w-product-error="One or more of the products in your cart have been removed. Please refresh the page and try again." data-w-invalid-discount-error="This discount is invalid." data-w-expired-discount-error="This discount is no longer available." data-w-usage-reached-discount-error="This discount is no longer available." data-w-requirements-not-met-error="Your order does not meet the requirements for this discount.">(!) There was an error processing your customer info.  Please try again, or contact us if you continue to have problems.</div></div><div class="w-commerce-commercecheckoutordersummarywrapper c-co-panel nopad"><div class="w-commerce-commercecheckoutsummaryblockheader c-co-panel-header"><div class="t-h3 line">Summary</div><div class="c-meta-point"><div class="t-meta">000 / 000</div></div></div><fieldset class="w-commerce-commercecheckoutblockcontent c-co-panel-content totals"><div class="w-commerce-commercecheckoutsummarylineitem checkout-line-item first"><div class="t-h6 line">Subtotal</div><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.subtotal%22%7D%7D%5D" class="t-h5 line"></div></div><script type="text/x-wf-template" id="wf-template-5ce445780034c87bab89b41a00000000009d">%3Cdiv%20class%3D%22w-commerce-commercecheckoutordersummaryextraitemslistitem%22%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522PlainText%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522identity%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.extraItems%255B%255D.name%2522%257D%257D%255D%22%20class%3D%22t-h6%20line%20w-dyn-bind-empty%22%3E%3C%2Fdiv%3E%3Cdiv%20data-wf-bindings%3D%22%255B%257B%2522innerHTML%2522%253A%257B%2522type%2522%253A%2522CommercePrice%2522%252C%2522filter%2522%253A%257B%2522type%2522%253A%2522price%2522%252C%2522params%2522%253A%255B%255D%257D%252C%2522dataPath%2522%253A%2522database.commerceOrder.extraItems%255B%255D.price%2522%257D%257D%255D%22%20class%3D%22t-h5%20line%22%3E%24%C2%A00.00%C2%A0USD%3C%2Fdiv%3E%3C%2Fdiv%3E</script><div class="w-commerce-commercecheckoutordersummaryextraitemslist checkout-line-item" data-wf-collection="database.commerceOrder.extraItems" data-wf-template-id="wf-template-5ce445780034c87bab89b41a00000000009d"><div class="w-commerce-commercecheckoutordersummaryextraitemslistitem"><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22PlainText%22%2C%22filter%22%3A%7B%22type%22%3A%22identity%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.extraItems%5B%5D.name%22%7D%7D%5D" class="t-h6 line w-dyn-bind-empty"></div><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.extraItems%5B%5D.price%22%7D%7D%5D" class="t-h5 line">$ 0.00 USD</div></div></div><div class="w-commerce-commercecheckoutsummarylineitem checkout-line-item total"><div class="t-h5 line">Total</div><div data-wf-bindings="%5B%7B%22innerHTML%22%3A%7B%22type%22%3A%22CommercePrice%22%2C%22filter%22%3A%7B%22type%22%3A%22price%22%2C%22params%22%3A%5B%5D%7D%2C%22dataPath%22%3A%22database.commerceOrder.total%22%7D%7D%5D" class="w-commerce-commercecheckoutsummarytotal t-h4 line"></div></div></fieldset><div class="hr"></div><form data-node-type="commerce-checkout-discount-form" class="w-commerce-commercecheckoutdiscounts c-input"><label class="w-commerce-commercecheckoutdiscountslabel t-input-label">[Discount Code]</label><div class="c-input-row"><input type="text" data-node-type="commerce-checkout-discount-input" class="w-commerce-commercecheckoutdiscountsinput input discount w-input" maxlength="256" name="field" data-name="field" placeholder="" id="field"/><button aria-label="Apply Discount" class="w-commerce-commercecheckoutdiscountsbutton b-discount">( Apply )</button></div></form></div><div class="c-co-ctas"><a href="#" value="[ Place Order ]" data-node-type="commerce-checkout-place-order-button" class="w-commerce-commercecheckoutplaceorderbutton b-submit" data-loading-text="Processing...">[ Place Order ]</a><div class="t-h6">— OR —</div><div data-wf-bindings="%5B%5D" data-wf-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22total%22%3A%7B%22ne%22%3A0%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22dataPath%22%3A%22database.commerceOrder%22%7D" class="c-alt-pay"><div data-node-type="commerce-cart-quick-checkout-actions" style="display:none" class="c-web-pay"><a role="button" tabindex="0" aria-haspopup="dialog" aria-label="Apple Pay" data-node-type="commerce-cart-apple-pay-button" style="background-image:-webkit-named-image(apple-pay-logo-white);background-size:100% 50%;background-position:50% 50%;background-repeat:no-repeat" class="w-commerce-commercecartapplepaybutton b-appl-pay"><div></div></a><a role="button" tabindex="0" aria-haspopup="dialog" data-node-type="commerce-cart-quick-checkout-button" style="display:none" class="w-commerce-commercecartquickcheckoutbutton b-pay-browser"><svg class="w-commerce-commercequickcheckoutgoogleicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><defs><polygon id="google-mark-a" points="0 .329 3.494 .329 3.494 7.649 0 7.649"></polygon><polygon id="google-mark-c" points=".894 0 13.169 0 13.169 6.443 .894 6.443"></polygon></defs><g fill="none" fill-rule="evenodd"><path fill="#4285F4" d="M10.5967,12.0469 L10.5967,14.0649 L13.1167,14.0649 C14.6047,12.6759 15.4577,10.6209 15.4577,8.1779 C15.4577,7.6339 15.4137,7.0889 15.3257,6.5559 L7.8887,6.5559 L7.8887,9.6329 L12.1507,9.6329 C11.9767,10.6119 11.4147,11.4899 10.5967,12.0469"></path><path fill="#34A853" d="M7.8887,16 C10.0137,16 11.8107,15.289 13.1147,14.067 C13.1147,14.066 13.1157,14.065 13.1167,14.064 L10.5967,12.047 C10.5877,12.053 10.5807,12.061 10.5727,12.067 C9.8607,12.556 8.9507,12.833 7.8887,12.833 C5.8577,12.833 4.1387,11.457 3.4937,9.605 L0.8747,9.605 L0.8747,11.648 C2.2197,14.319 4.9287,16 7.8887,16"></path><g transform="translate(0 4)"><mask id="google-mark-b" fill="#fff"><use xlink:href="#google-mark-a"></use></mask><path fill="#FBBC04" d="M3.4639,5.5337 C3.1369,4.5477 3.1359,3.4727 3.4609,2.4757 L3.4639,2.4777 C3.4679,2.4657 3.4749,2.4547 3.4789,2.4427 L3.4939,0.3287 L0.8939,0.3287 C0.8799,0.3577 0.8599,0.3827 0.8459,0.4117 C-0.2821,2.6667 -0.2821,5.3337 0.8459,7.5887 L0.8459,7.5997 C0.8549,7.6167 0.8659,7.6317 0.8749,7.6487 L3.4939,5.6057 C3.4849,5.5807 3.4729,5.5587 3.4639,5.5337" mask="url(#google-mark-b)"></path></g><mask id="google-mark-d" fill="#fff"><use xlink:href="#google-mark-c"></use></mask><path fill="#EA4335" d="M0.894,4.3291 L3.478,6.4431 C4.113,4.5611 5.843,3.1671 7.889,3.1671 C9.018,3.1451 10.102,3.5781 10.912,4.3671 L13.169,2.0781 C11.733,0.7231 9.85,-0.0219 7.889,0.0001 C4.941,0.0001 2.245,1.6791 0.894,4.3291" mask="url(#google-mark-d)"></path></g></svg><div class="t-cta dark">Pay with browser</div><svg class="w-commerce-commercequickcheckoutmicrosofticon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><g fill="none" fill-rule="evenodd"><polygon fill="#F05022" points="7 7 1 7 1 1 7 1"></polygon><polygon fill="#7DB902" points="15 7 9 7 9 1 15 1"></polygon><polygon fill="#00A4EE" points="7 15 1 15 1 9 7 9"></polygon><polygon fill="#FFB700" points="15 15 9 15 9 9 15 9"></polygon></g></svg></a></div><div class="c-applpay-off"><div class="t-h6">ApplePay not Currently available</div></div></div></div></div></div></div></div></div></div></div><div id="footer" class="footer-section wf-section"><div class="c-contact-social home"><div class="clw-social w-dyn-list"><div role="list" class="cl-social w-dyn-items"><div role="listitem" class="i-social w-dyn-item"><a href="mailto:hi@jonway.studio" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Email</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../www.instagram.com/jonvway/index.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Insta</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="https://twitter.com/jonway_" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Twitter</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../consent.youtube.com/ml02ff.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">YouTube</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../www.twitch.tv/jonwaystudio.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Twitch</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../dribbble.com/jonway.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Dribbble</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../www.pinterest.com/jonwaystudio/index.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Pinterest</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../www.linkedin.com/in/jonvway/index.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">LinkedIn</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../www.behance.net/jonway.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Behance</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../workingnotworking.com/51267-jon.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">WNW</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../discord.com/invite/Q8pmzmuF.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Discord</div><div class="t-h6 line"> ↗</div></a></div><div role="listitem" class="i-social w-dyn-item"><a href="../members.onepeloton.com/members/runthekjoules/overview.html" target="_blank" class="c-social w-inline-block"><div class="t-h6 line">Peloton</div><div class="t-h6 line"> ↗</div></a></div></div></div></div><div class="c-footer"><div class="div-block-1014"><div class="c-footer-meta-top"><div id="w-node-_71c37d49-98f9-c96f-7b70-a0ec16e17e5f-980bea6d" class="t-h2 footer">J\V.S</div><div id="w-node-c568917f-34fa-3c34-88fc-01b68c509d21-980bea6d" class="collection-list-wrapper-12 w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><img src="../uploads-ssl.webflow.com/5ce445780034c84e4b89b40c/63f7ab914715bf84dd161c82_jvs-steept.svg" loading="lazy" alt=""/></div></div></div><div id="w-node-_71c37d49-98f9-c96f-7b70-a0ec16e17e61-980bea6d" class="t-h4">2023®</div><div id="w-node-_71c37d49-98f9-c96f-7b70-a0ec16e17e63-980bea6d" class="t-footer-legal">All contents of this website are the property oF JON WAY STUDIO. No part of this site, including all text and images, may be reproduced in any form without the prior written consent oF JON WAY STUDIO ©2023 by JON WAY STUDIO (Jw.S).</div></div></div><div class="c-ttt"><a href="#TOP" class="div-block-892 w-inline-block"><div class="p-small link">↑  TOP  ↑</div></a></div></div><div class="c-footer-legal"><div class="t-meta">All Rights Reserved</div><img src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/5e197afce402b69de6797a7f_rotating_symbols.gif" loading="lazy" alt="" class="i-marker"/><div class="t-meta">Jon way STudio 2023®</div></div></div></div><div class="l-vr"></div><script src="../d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8787d.js?site=5cb7be195426f23752acf2dc" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/js/webflow.f8203c21a.js" type="text/javascript"></script><script>
+let transitionTrigger = $(".transition-trigger");
+let introDurationMS = 2550;
+let exitDurationMS = 1300;
+let excludedClass = "no-transition";
+  
+// On Page Load
+if (transitionTrigger.length > 0) {
+	transitionTrigger.click();
+	$("body").addClass("no-scroll-transition");
+	setTimeout(() => {$("body").removeClass("no-scroll-transition");}, introDurationMS);
+}
+// On Link Click
+$("a").on("click", function (e) {
+  if ($(this).prop("hostname") == window.location.host && $(this).attr("href").indexOf("#") === -1 &&
+      !$(this).hasClass(excludedClass) && $(this).attr("target") !== "_blank" && transitionTrigger.length > 0) {
+    e.preventDefault();
+		$("body").addClass("no-scroll-transition");
+    let transitionURL = $(this).attr("href");
+    transitionTrigger.click();
+    setTimeout(function () {window.location = transitionURL;}, exitDurationMS);
+  }
+});
+// On Back Button Tap
+window.onpageshow = function(event) {if (event.persisted) {window.location.reload()}};
+// Hide Transition on Window Width Resize
+setTimeout(() => {$(window).on("resize", function () {
+setTimeout(() => {$(".transition").css("display", "none");}, 50);});
+}, introDurationMS);
+</script>
+
+
+
+<style>
+.transition-BG, .c-aux,  .c-work-coverIMG-bg, .c-index-item-media, .c-cat-faux-active, .c-subnav-faux-active{
+pointer-events:none;
+}
+
+.element-cursor-box, .c-nav-item, .c-cart-wrapper, .c-link{
+pointer-events:all !important;
+}
+  
+  
+  /* Prevent Scroll Chaining*/
+  .c-navi-content, .CLW-routing-tiles.type-vert, .c-cart-overlay, .CL-cart, .i-IMG-stack{
+overscroll-behavior: none;
+}
+  
+  
+html{
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+  
+  
+
+/*GPU Acceleration*/
+  .IMG {
+    -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  }
+  
+  
+ img, .img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+  
+
+.c-home-collab-img-featured, .c-collab-detail-title{
+image-rendering:pixelated;
+}
+
+  
+
+
+
+
+  input,
+textarea {
+     -moz-user-select: text;
+}
+  
+    .select-field {
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     -webkit-border-radius: 0px;
+  }
+  
+/*------Pointer Events Masking--------*/
+ .noise, 
+ .transition-bg,
+ .print-shadow, .img-overlay-title-text, .page-transition{
+    pointer-events:none !important;
+  }
+
+
+  .liga{
+    font-feature-settings: "liga" on;
+  }
+  
+    p{
+    font-feature-settings: "liga" off;
+  }
+
+  
+ 
+  
+
+  
+  
+  /* Disabling iOS Saving of Images */
+  .disableSave {
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+}
+    
+  
+  /* JW.Sans Input form mobile styling */
+  .font-input {
+    border-radius: 0;
+    -webkit-border-radius:0px;
+    -webkit-appearance: none;
+}
+  
+  input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+  
+  
+  
+  
+  
+/*––––––––– Lightbox Styling ––––––––*/
+
+.w-lightbox-strip{
+    align-items: center;
+}
+
+.w-lightbox-group .w-lightbox-image{
+	height:100%;
+	width:100%;
+	max-height:none !important;
+	max-width:none !important;
+}
+
+.w-lightbox-thumbnail .w-lightbox-tall{
+height:100%;
+width:auto;
+}
+
+.w-lightbox-group .w-lightbox-figure{
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height:75vh;
+	max-width: 75vw;
+}
+    
+    .w-lightbox-item {
+    width: 2vw;
+    min-width: 40px;
+    }
+    
+
+  .w-lightbox-thumbnail{
+    filter: brightness(1) grayscale(0) contrast(1);
+    transition-duration: .5s;
+  }
+  
+  .w-lightbox-view{
+    transition-duration: 1s;
+  }
+
+  .w-lightbox-thumbnail:hover{
+    filter: grayscale(1) brightness(.7) contrast(.5);
+transition-duration: .5s;
+  }
+  
+    .w-lightbox-active{
+  filter:blur(.15em);
+filter: grayscale(1);
+      transition-duration: .5s;
+  }
+  
+.w-lightbox-spinner{
+	background:url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/607deb7493070a8b76850c49_JWS_Pre-loader-2.gif")
+}
+  
+  .w-lightbox-right{
+	background:url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/60901ae8eb57635ab4e27f5b_LB-Next-static.svg") !important;
+	background-repeat:no-repeat !important;
+	background-position:100% 50% !important;
+  background-size: 37px 12px !important;
+      transition: 0.3s;
+margin-right:4vw;
+width:20%;
+}
+
+.w-lightbox-left{
+	background:url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/60901ae861deddf8dd324a0f_LB-prev-static.svg") !important;
+	background-repeat:no-repeat !important;
+	background-position:0% 50% !important;
+  background-size: 37px 12px !important;
+    transition: 0.3s;
+margin-left:4vw;
+width:20%;
+  }
+  
+
+.w-lightbox-right:hover, .w-lightbox-left:hover{
+    opacity:1;
+}
+
+
+.w-lightbox-backdrop{
+  background: rgba(26,26,26,.95);
+  }
+ 
+  .w-lightbox-close{
+    background:url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/60900bf42b8fc91a0206270b_LB-close-static.svg") !important;
+	background-repeat:no-repeat !important;
+	background-position:center !important;
+  background-size: 54px 13px !important;
+width:100%;
+min-width:54px;
+  }
+  
+    .w-lightbox-close:hover{
+    background:url(../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/608f034dec4c5bcb643c794e_LB-close-hover.svg)
+}
+
+  
+  
+  
+
+  
+
+  
+  
+/*————— Selection Styling ————*/
+  .section:focus {
+outline: none;
+}
+
+:focus 
+{ outline: none; 
+  }
+  
+  
+  
+  
+  .select-field{
+background-image: url("../uploads-ssl.webflow.com/5cb7be195426f23752acf2dc/5f000cb4e8307056e8a9b8c7_%2b.svg");
+  background-repeat: no-repeat;
+background-position: 95% 50%;
+}
+
+
+  
+
+  
+
+@media screen and (max-width: 575px){
+  .g-recaptcha {
+    transform:scale(0.75);
+    -webkit-transform:scale(0.75);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+  }
+}
+
+
+</style>
+
+
+
+
+
+
+
+<!-- REMOVE HOVERS ON MOBILE -->
+<script>
+  function hasTouch() {
+    return 'ontouchstart' in document.documentElement
+           || navigator.maxTouchPoints > 0
+           || navigator.msMaxTouchPoints > 0;
+}
+
+if (hasTouch()) { // remove all the :hover stylesheets
+    try { // prevent exception on browsers not supporting DOM styleSheets properly
+        for (var si in document.styleSheets) {
+            var styleSheet = document.styleSheets[si];
+            if (!styleSheet.rules) continue;
+
+            for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+                if (!styleSheet.rules[ri].selectorText) continue;
+
+                if (styleSheet.rules[ri].selectorText.match(':hover')) {
+                    styleSheet.deleteRule(ri);
+                }
+            }
+        }
+    } catch (ex) {}
+}
+</script>
+
+
+<!-- Delays Load of Google Tags -->
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  /** init gtm after 3500 seconds - this could be adjusted */
+  setTimeout(initGTM, 3500);
+});
+document.addEventListener('scroll', initGTMOnEvent);
+document.addEventListener('mousemove', initGTMOnEvent);
+document.addEventListener('touchstart', initGTMOnEvent);
+function initGTMOnEvent(event) {
+  initGTM();
+  event.currentTarget.removeEventListener(event.type, initGTMOnEvent); // remove the event listener that got triggered
+}
+function initGTM() {
+  if (window.gtmDidInit) {
+    return false;
+  }
+  window.gtmDidInit = true; // flag to ensure script does not get added to DOM more than once.
+  const script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.async = true;
+  // ensure PageViews is always tracked (on script load)
+  script.onload = () => {
+    dataLayer.push({ event: 'gtm.js', 'gtm.start': new Date().getTime(), 'gtm.uniqueEventId': 0 });
+  };
+  script.src = '../www.googletagmanager.com/gtm4ee3.html?id=YOUR-GTM-ID-HERE';
+  document.head.appendChild(script);
+}
+</script>
+
+</body>
+<!-- Mirrored from www.jonway.studio/checkout?5bbccdaf_page=2 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 May 2023 22:51:44 GMT -->
+</html>
