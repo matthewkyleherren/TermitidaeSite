@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    
+<!-- Mirrored from www.samara.com/backyard/tech-specs by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Jun 2023 09:27:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+            <script async src="../../www.googletagmanager.com/gtag/js060f?id=G-Y1SW8E75MN"></script>
+
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-Y1SW8E75MN');
+            </script>
+
+            <script async src="../../www.googletagmanager.com/gtag/js2cef?id=AW-11027142108"></script>
+
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'AW-11027142108');
+            </script>
+
+            <script>
+                !function(f,b,e,v,n,t,s)
+                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window,document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '456914986604600');
+                fbq('track', 'PageView');
+            </script>
+
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="initial-scale=1, width=device-width, viewport-fit=cover"
+        />
+
+        <meta name="description" content="Discover Samara's Backyard accessory dwelling units, designed for your changing needs with customizable options, easy installation, and sustainable tech." />
+        <meta name="author" content="Samara" />
+        <meta name="copyright" content="Samara, Inc." />
+
+        <meta property="og:title" content="Tech specs – Backyard" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://samara.com/assets/images/banner.jpg?-3145437302260280520" />
+        <meta
+            property="og:url"
+            content="https://samara.com/backyard/tech-specs/"
+        />
+        <meta property="og:description" content="Discover Samara's Backyard accessory dwelling units, designed for your changing needs with customizable options, easy installation, and sustainable tech." />
+        <meta property="fb:app_id" content="495582180645280" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@samara" />
+        <meta name="twitter:title" content="Tech specs – Backyard" />
+        <meta name="twitter:description" content="Discover Samara's Backyard accessory dwelling units, designed for your changing needs with customizable options, easy installation, and sustainable tech." />
+        <meta name="twitter:image" content="https://samara.com/assets/images/banner.jpg?-3145437302260280520" />
+
+        <meta name="theme-color" content="#000000" />
+
+        <link
+            rel="apple-touch-icon"
+            href="../assets/images/favicons/icon76x.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="../assets/images/favicons/icon180x.png"
+            sizes="180x180"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="../assets/images/favicons/icon152x.png"
+            sizes="152x152"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="../assets/images/favicons/icon120x.png"
+            sizes="120x120"
+        />
+        <link
+            rel="shortcut icon"
+            href="../assets/images/favicons/icon64x.png"
+            sizes="64x64"
+            type="image/png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="../assets/images/favicons/favicon.png"
+        />
+        <link
+            rel="preload"
+            href="../assets/fonts/regola-book.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+        <link
+            rel="preload"
+            href="../assets/fonts/regola-light.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+
+        <title>Tech specs – Backyard</title>
+
+        <style>
+            html {
+                opacity: 0;
+            }
+        </style>
+
+        <link href="../assets/stylesheets/index.css" rel="stylesheet" />
+
+            <script
+                defer
+                data-domain="samara.com"
+                src="../../plausible.io/js/plausible.js"
+            ></script>
+
+            <script
+                src="../../browser.sentry-cdn.com/7.38.0/bundle.tracing.min.js"
+                integrity="sha384-1+NVxJuzrJqJNxlOk23abXGMOTFCVL2ijvbPWADLNAye3nGSVKDqxT6vQqZVWRMd"
+                crossorigin="anonymous"
+            ></script>
+
+            <script>
+                (function(h,o,t,j,a,r){
+                    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                    h._hjSettings={hjid:3437941,hjsv:6};
+                    a=o.getElementsByTagName('head')[0];
+                    r=o.createElement('script');r.async=1;
+                    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                    a.appendChild(r);
+                })(window,document,'../../static.hotjar.com/c/hotjar-','.js?sv=');
+            </script>
+
+        <script src="../assets/javascripts/index.js"></script>
+    </head>
+
+    <body class="no-javascript backyard tech-specs">
+    <nav class="main-navigation collapsed">
+    <button class="toggle">
+        <span class="top">
+            <span></span>
+        </span>
+        <span class="bottom">
+            <span></span>
+        </span>
+    </button>
+    <a href="../backyard" class="logo">
+        <img src="../assets/images/logo.svg" width="89" height="18" alt="Samara" />
+    </a>
+    <div class="main-navigation-list">
+        <ul>
+            <li><a href="../backyard">Backyard</a></li>
+            <li class="backyard-menu-item"><a href="how-it-works">How it works</a></li>
+            <li class="backyard-menu-item"><a href="tech-specs">Tech specs</a></li>
+            <li class="backyard-menu-item"><a href="faq">FAQ</a></li>
+            <li class="pages-menu-item"><a href="../about">About</a></li>
+            <li class="pages-menu-item"><a href="../newsroom">Newsroom</a></li>
+            <li class="pages-menu-item"><a href="../jobs">Jobs</a></li>
+        </ul>
+    </div>
+    <a href="configure" class="backyard-configure rounded blue">Configure now</a>
+</nav>
+
+
+    <main>
+        <div class="page">
+            <div class="slides">
+    <div class="slide specs">
+        <div class="specs-content">
+            <div class="spacer-32 m-spacer-0"></div>
+            <div class="spacer-150 m-spacer-100"></div>
+            <h1 class="type-120 m-type-96">Tech specs</h1>
+
+            <div class="specs-content-row specs-content-header">
+                <div></div>
+                <div>
+                    <div class="type-18 m-type-15">Studio</div>
+                </div>
+                <div>
+                    <div class="type-18 m-type-15">One bedroom</div>
+                </div>
+                <div>
+                    <div class="type-18 m-type-15">Two bedroom</div>
+                </div>
+                <div class="specs-content-header-backdrop"></div>
+            </div>
+
+            <div class="specs-content-mobile-divider">
+                <div class="spacer-100 m-spacer-50"></div>
+                <div class="m-spacer-16"></div>
+                <hr />
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row specs-content-row-elevations">
+                <div>
+                    <div class="type-18 m-type-15 color-text-60">Models</div>
+                </div>
+                <div>
+                    <div>
+                        <div class="specs-content-label">Studio</div>
+                        <img src="../assets/images/backyard/specs/header-studio/header-studio-1000.webp" style="transform: translateX(-29%)" />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="specs-content-label">One bedroom</div>
+                        <img src="../assets/images/backyard/specs/header-onebed/header-onebed-1000.webp" style="transform: translateX(-23%)" />
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="specs-content-label">Two bedroom</div>
+                        <img src="../assets/images/backyard/specs/header-twobed/header-twobed-1000.webp" style="transform: translateX(-16%)" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Starting at</div>
+                    <div class="type-14 m-type-12 color-text-40">(Baseline unit + installation)</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Studio</div>
+                    <div class="type-18 m-type-15">$289,000</div>
+                    <div class="type-14 m-type-12 color-text-40">($192,500 + $96,500)</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">One bedroom</div>
+                    <div class="type-18 m-type-15">$329,000</div>
+                    <div class="type-14 m-type-12 color-text-40">($224,000 + $105,000)</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Two bedroom</div>
+                    <div class="type-18 m-type-15">$369,000</div>
+                    <div class="type-14 m-type-12 color-text-40">($254,000 + $115,000)</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Square footage</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Studio</div>
+                    <div class="type-18 m-type-15">420 gross sq. ft.</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">One bedroom</div>
+                    <div class="type-18 m-type-15">540 gross sq. ft.</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Two bedroom</div>
+                    <div class="type-18 m-type-15">690 gross sq. ft.</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Unit dimensions</div>
+                    <div class="type-14 m-type-12 color-text-40">Excluding stairs and decks</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Studio</div>
+                    <div class="type-18 m-type-15">29' W × 15' D</div>
+                    <div class="type-14 m-type-12 color-text-40">Height: 13'2" without foundation</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">One bedroom</div>
+                    <div class="type-18 m-type-15">37' W × 15' D</div>
+                    <div class="type-14 m-type-12 color-text-40">Height: 13'2" without foundation</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Two bedroom</div>
+                    <div class="type-18 m-type-15">47' W × 15' D</div>
+                    <div class="type-14 m-type-12 color-text-40">Height: 13'2" without foundation</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Space requirement</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Studio</div>
+                    <div class="type-18 m-type-15">39' × 25'</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">One bedroom</div>
+                    <div class="type-18 m-type-15">47' × 25'</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Two bedroom</div>
+                    <div class="type-18 m-type-15">57' × 25'</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row specs-content-floorplans">
+                <div>
+                    <div class="type-18 m-type-15">Floorplans</div>
+                    <div class="type-14 m-type-12 color-text-40">Stairs and decks not represented</div>
+                    <!--div class="type-14 m-type-12">
+                        <a href="/assets/documents/floorplans.pdf">
+                            Dimensioned plans (PDF)
+                            <img
+                                src="/assets/images/icons/download-blue.svg"
+                                widht="14"
+                                height="14"
+                                align="center" />
+                        </a>
+                    </div-->
+                </div>
+                <div>
+                    <div class="specs-content-floorplans-vertical" style="transform: translateY(2px)">
+                        <img src="../assets/images/backyard/floorplan-studio/floorplan-studio-1050.webp" />
+                        <div class="specs-content-floorplans-dimension-vertical" style="height: 96%; top: 2.5%; left: 77%">
+                            <div class="type-14 m-type-12">29'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                        </div>
+                        <div class="specs-content-floorplans-dimension-horizontal" style="top: 104%; width: 69%">
+                            <div class="type-14 m-type-12">15'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                        </div>
+                    </div>
+                    <div class="specs-content-floorplans-horizontal">
+                        <div class="specs-content-label">Studio</div>
+                        <img src="../assets/images/backyard/floorplan-studio-horizontal/floorplan-studio-horizontal-1050.webp" />
+                        <div class="specs-content-floorplans-dimension-vertical" style="left: calc(15vw * 203 / 103 + 15px)">
+                            <div class="type-14 m-type-12">15'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                        </div>
+                        <div class="specs-content-floorplans-dimension-horizontal" style="transform: translateX(5px); width: calc(15vw * 203 / 103 - 5px)">
+                            <div class="type-14 m-type-12">29'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="specs-content-floorplans-vertical">
+                        <img src="../assets/images/backyard/floorplan-onebed/floorplan-onebed-1050.webp" />
+                        <div class="specs-content-floorplans-dimension-vertical" style="height: 94%; left: 77%">
+                            <div class="type-14 m-type-12">37'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                        </div>
+                        <div class="specs-content-floorplans-dimension-horizontal" style="top: 100%; width: 70%">
+                            <div class="type-14 m-type-12">15'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                        </div>
+                    </div>
+                    <div class="specs-content-floorplans-horizontal">
+                        <div class="specs-content-label">One bedroom</div>
+                        <img style="transform: translateX(-2px)" src="../assets/images/backyard/floorplan-onebed-horizontal/floorplan-onebed-horizontal-1050.webp" />
+                        <div class="specs-content-floorplans-dimension-vertical" style="transform: translateY(27px); left: calc(15vw * 240 / 92 + 10px)">
+                            <div class="type-14 m-type-12">15'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                        </div>
+                        <div class="specs-content-floorplans-dimension-horizontal" style="transform: translateY(30px) translateX(5px); width: calc(15vw * 240 / 92 - 11px)">
+                            <div class="type-14 m-type-12">37'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="specs-content-floorplans-vertical" style="transform: translateY(-3px)">
+                        <img src="../assets/images/backyard/floorplan-twobed/floorplan-twobed-1050.webp" />
+                        <div class="specs-content-floorplans-dimension-vertical" style="height: 95.5%; left: 77%">
+                            <div class="type-14 m-type-12">47'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                        </div>
+                        <div class="specs-content-floorplans-dimension-horizontal" style="top: 101%; width: 70%">
+                            <div class="type-14 m-type-12">15'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                        </div>
+                    </div>
+                    <div class="specs-content-floorplans-horizontal">
+                        <div class="specs-content-label">Two bedroom</div>
+                        <img src="../assets/images/backyard/floorplan-twobed-horizontal/floorplan-twobed-horizontal-1050.webp" />
+                        <div class="specs-content-floorplans-dimension-vertical" style="transform: translateY(27px); left: calc(15vw * 300 / 92 + 10px)">
+                            <div class="type-14 m-type-12">15'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-top.svg" />
+                        </div>
+                        <div class="specs-content-floorplans-dimension-horizontal" style="transform: translateY(30px) translateX(5px); width: calc(15vw * 300 / 92 - 11px)">
+                            <div class="type-14 m-type-12">47'</div>
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                            <img src="../assets/images/backyard/dimension-arrow-right.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-100"></div>
+            <div class="specs-content-image">
+                <img src="../assets/images/backyard/green/green-2880.webp" />
+            </div>
+            <div class="spacer-150 m-spacer-64"></div>
+
+            <h2 class="type-72 m-type-48">Exterior</h2>
+            <div class="spacer-50"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Colors</div>
+                </div>
+                <div class="specs-content-column-3 specs-content-colors">
+                    <div class="specs-content-colors-bone-white">
+                        <div class="type-12">Bone white</div>
+                    </div>
+                    <div class="specs-content-colors-driftwood">
+                        <div class="type-12">Driftwood</div>
+                    </div>
+                    <div class="specs-content-colors-parchment">
+                        <div class="type-12">Parchment</div>
+                    </div>
+                    <div class="specs-content-colors-evergreen">
+                        <div class="type-12">Evergreen</div>
+                    </div>
+                    <div class="specs-content-colors-dark-bronze">
+                        <div class="type-12">Dark bronze</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Roof colors</div>
+                </div>
+                <div class="specs-content-column-3 specs-content-colors">
+                    <div class="specs-content-colors-dark-bronze">
+                        <div class="type-12">Dark bronze</div>
+                    </div>
+                    <div class="specs-content-colors-metallic-silver">
+                        <div class="type-12">Metallic silver</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Structure</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">Precision-engineered light-gauge steel frame</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Cladding</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">2" thick smooth-coated steel insulated panels</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Roof</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">Galvalume®-coated steel standing seam roof with 5:12 pitch</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Windows & doors</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Studio</div>
+                    <ul class="type-18 m-type-15">
+                        <li>
+                            <span class="prop-nums">3'&thinsp;×&thinsp;6'8"</span>
+                            frosted glass entry door
+                        </li>
+                        <li>
+                            <span class="prop-nums">5'&thinsp;×&thinsp;6'8"</span>
+                            double doors with deck
+                        </li>
+                        <li>
+                            <span class="prop-nums">3'&thinsp;×&thinsp;5'</span>
+                            casement window
+                        </li>
+                        <li>
+                            Two
+                            <span class="prop-nums">3'&thinsp;×&thinsp;3'</span>
+                            casement windows
+                        </li>
+                        <li>Customizable with additional double doors with decks and/or front entry stair</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="specs-content-label">One bedroom</div>
+                    <ul class="type-18 m-type-15">
+                        <li>
+                            <span class="prop-nums">3'&thinsp;×&thinsp;6'8"</span>
+                            frosted glass entry door
+                        </li>
+                        <li>
+                            <span class="prop-nums">5'&thinsp;×&thinsp;6'8"</span>
+                            double doors with deck
+                        </li>
+                        <li>
+                            Two
+                            <span class="prop-nums">3'&thinsp;×&thinsp;5'</span>
+                            casement windows
+                        </li>
+                        <li>
+                            Two
+                            <span class="prop-nums">3'&thinsp;×&thinsp;3'</span>
+                            casement windows
+                        </li>
+                        <li>Customizable with additional double doors with decks</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="specs-content-label">Two bedroom</div>
+                    <ul class="type-18 m-type-15">
+                        <li>
+                            <span class="prop-nums">3'&thinsp;×&thinsp;6'8"</span>
+                            frosted glass entry door
+                        </li>
+                        <li>
+                            <span class="prop-nums">5'&thinsp;×&thinsp;6'8"</span>
+                            double doors with deck
+                        </li>
+                        <li>
+                            Two
+                            <span class="prop-nums">3'&thinsp;×&thinsp;5'</span>
+                            casement windows
+                        </li>
+                        <li>
+                            Three
+                            <span class="prop-nums">3'&thinsp;×&thinsp;3'</span>
+                            casement windows
+                        </li>
+                        <li>Customizable with additional double doors with decks</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Canopy</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <ul class="type-18 m-type-15">
+                        <li>Base color-matched aluminum entry canopy</li>
+                        <li>Additional canopies included with double door upgrades</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Deck</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">Clear-stained Western red cedar</div>
+                </div>
+            </div>
+
+            <div class="spacer-100"></div>
+            <div class="specs-content-image">
+                <img src="../assets/images/backyard/interior-twobed/interior-twobed-2880.webp" />
+            </div>
+            <div class="spacer-150 m-spacer-64"></div>
+
+            <h2 class="type-72 m-type-48">Interior</h2>
+            <div class="spacer-50"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Ceiling height</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">7'10⅞" — 10'10"</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Flooring</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">Water-resistant engineered hardwood in natural oak</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Lighting</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">
+                        Dimmable
+                        <span class="prop-nums">2700k</span> indirect LED ceiling fixtures
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Kitchen</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <ul class="type-18 m-type-15">
+                        <li>Custom steel frame cabinetry with synthetic stone countertop</li>
+                        <li>Stainless steel sink with polished chrome pull-down single-handle faucet</li>
+                        <li>Double burner induction cooktop</li>
+                        <li>Range hood with exhaust and built-in storage</li>
+                        <li>Single wall convection oven built into kitchen cabinetry</li>
+                        <li>In-sink garbage disposal</li>
+                        <li>Integrated drawer dishwasher</li>
+                        <li><span class="prop-nums">27.6"</span> wide bottom freezer refrigerator with 15 cubic feet capacity</li>
+                        <li>Two-tier open shelving with integrated LED task lighting</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Bath</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <ul class="type-18 m-type-15">
+                        <li>Wide vanity with synthetic stone countertop and built-in storage</li>
+                        <li>Vitreous china sink with polished chrome single-handle faucet</li>
+                        <li><span class="prop-nums">34" x 60"</span> cast iron walk-in shower with synthetic stone surround, curb, concealed drain, <span class="prop-nums">24"</span> wide shelf and sliding glass doors</li>
+                        <li>Hand shower and single-handle valve in polished chrome</li>
+                        <li>Skirted low-flow toilet with left-hand polished chrome lever</li>
+                        <li>Polished chrome towel hooks and toilet paper holder</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Laundry</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <ul class="type-18 m-type-15">
+                        <li><span class="prop-nums">2.3</span> cubic foot all-in-one washer/dryer with 14 wash programs</li>
+                        <li>Fixed shelf with hanging rod and integrated LED task lighting</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Interior doors</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Studio</div>
+                    <ul class="type-18 m-type-15">
+                        <li>Solid-core bathroom pocket door with full-length mirror</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="specs-content-label">One bedroom</div>
+                    <ul class="type-18 m-type-15">
+                        <li>Solid-core bathroom pocket door</li>
+                        <li>Solid-core bedroom pocket door with full-length mirror</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="specs-content-label">Two bedroom</div>
+                    <ul class="type-18 m-type-15">
+                        <li>Solid-core bathroom pocket door with full-length mirror</li>
+                        <li>Two solid-core bedroom pocket doors</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Storage</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <ul class="type-18 m-type-15">
+                        <li>Bathroom closet featuring fixed shelf with integrated LED task lighting and three adjustable shelves</li>
+                        <li>Custom wardrobe with hanging rod, open shelving, and drawers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="spacer-150 m-spacer-64"></div>
+
+            <h2 class="type-72 m-type-48">Mechanical</h2>
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Solar energy</div>
+                </div>
+                <div>
+                    <div class="specs-content-label">Studio</div>
+                    <ul class="type-18 m-type-15">
+                        <li>
+                            <span class="prop-nums">7-panel, 2.7 kW DC</span>
+                            photovoltaic system
+                        </li>
+                        <li>
+                            Upgrade to
+                            <span class="prop-nums">14-panel, 5.3 kW DC</span>
+                            photovoltaic system
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="specs-content-label">One bedroom</div>
+                    <ul class="type-18 m-type-15">
+                        <li>
+                            <span class="prop-nums">9-panel, 3.4 kW DC</span>
+                            photovoltaic system
+                        </li>
+                        <li>
+                            Upgrade to
+                            <span class="prop-nums">18-panel, 6.8 kW DC</span>
+                            photovoltaic system
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="specs-content-label">Two bedroom</div>
+                    <ul class="type-18 m-type-15">
+                        <li>
+                            <span class="prop-nums">12-panel, 4.5 kW DC</span>
+                            photovoltaic system
+                        </li>
+                        <li>
+                            Upgrade to
+                            <span class="prop-nums">24-panel, 9.1 kW DC</span>
+                            photovoltaic system
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Heating & cooling</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">High efficiency ducted heat-pump system</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Thermal efficiency</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">Walls: R-25; Roof: R-33; Floor: R-29</div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Air purification</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <div class="type-18 m-type-15">
+                        Integrated
+                        <span class="prop-nums">MERV-13-rated</span>
+                        dual-phase air filtration system with ionizer
+                    </div>
+                </div>
+            </div>
+
+            <div class="spacer-50 m-spacer-32"></div>
+            <hr />
+            <div class="spacer-50 m-spacer-32"></div>
+
+            <div class="specs-content-row">
+                <div>
+                    <div class="type-18 m-type-15">Safety</div>
+                </div>
+                <div class="specs-content-column-3">
+                    <ul class="type-18 m-type-15">
+                        <li>Wi-Fi connected smoke and carbon monoxide detector with integrated air quality monitor</li>
+                        <li>Fire sprinklers (if required by code)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spacer-150"></div>
+        </div>
+    </div>
+
+    <div class="backyard-footer" data-invert="true">
+    <div class="top">
+        <h1 class="h4">Available now in&nbsp;California.</h1>
+        <h1 class="h4">
+            Starting at $289k or $1,730/mo,<br class="desktop">
+            including installation.
+            <img class="intro-cta-info-button" src="../assets/images/icons/info-white.svg" width="21" height="21" onclick="Calculator.show('both')" alt="More infromation" style="opacity: 0.4; cursor: pointer" />
+        </h1>
+        <div class="text">
+            <a href="configure" class="rounded blue">
+                Reserve now for free
+            </a>
+            <p>
+                Not in California?<br />
+                <a onclick="Contact.show({ page: 'expand' })">
+                    Tell us where to expand next&nbsp;›
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="footer-nav footer-nav-variant-normal">
+    <div class="container">
+        <ul>
+            <li><a href="../index.html">Samara</a></li>
+            <li><a href="../about">About</a></li>
+            <li><a href="../newsroom">Newsroom</a></li>
+            <li><a href="../jobs">Jobs</a></li>
+            <li><a onclick="Contact.show({ variant: 'classic' })">Contact us</a></li>
+        </ul>
+        <ul>
+            <li><a href="../backyard">Backyard</a></li>
+            <li><a href="how-it-works">How it works</a></li>
+            <li><a href="tech-specs">Tech specs</a></li>
+            <li><a href="faq">FAQ</a></li>
+        </ul>
+        <ul>
+            <li>Social</li>
+            <li><a href="../../instagram.com/meetsamara/index.html" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/@meetsamara/" target="_blank">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/company/meetsamara" target="_blank">LinkedIn</a></li>
+        </ul>
+        <div class="legal">
+            <div class="phone">
+                <div class="phone-number">
+                    <a href="tel:6504202607">Have questions? Give us a call.</a>
+                </div>
+                <div class="phone-hours">
+                    Call us 8 a.m. – 7 p.m. PT at <a href="tel:6504202607">(650) 420-2607</a>,<br>Monday through Saturday.
+                </div>
+            </div>
+            <ol class="footnotes">
+                <li id="fn1">“Net zero” may change for build sites with significant shading.</li>
+            </ol>
+            <div class="bs">
+                <a href="../privacy-policy">Privacy</a>
+                <a href="../terms-of-service">Terms of Service</a>
+                <div class="copy">
+                    © 2023 Samara Living Inc.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+        </div>
+    </main>
+
+     <div id="calculator"></div>
+     <div id="contact"></div>
+</body>
+
+
+<!-- Mirrored from www.samara.com/backyard/tech-specs by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Jun 2023 09:27:52 GMT -->
+</html>
